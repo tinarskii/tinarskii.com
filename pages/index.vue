@@ -1,159 +1,276 @@
 <script setup>
-  import * as data from "../data.ts";
+import * as data from "../data.ts";
 </script>
 
 <template>
-  <div class="page-container">
-    <div class="top-bar">
-      <div class="icon-container">
-        <img src="~/assets/img/webring.svg" alt="Webring.in.th Ring">
-        <img src="~/assets/img/ring-thin.svg" alt="Creatorsgarten Ring">
+  <div
+    class="grid w-full place-items-center gap-12 px-4 py-16 md:my-24 md:px-32 md:py-0"
+  >
+    <!-- Top bar elements -->
+    <div class="flex w-full flex-row justify-between">
+      <!-- Rings -->
+      <div
+        class="top-0 left-0 mx-auto flex flex-row items-center gap-4 md:mx-0"
+      >
+        <img
+          src="@/assets/img/ring-thin.svg"
+          alt="Creatorsgarten Ring"
+          class="h-[32px] w-[32px]"
+        />
+        <img
+          src="@/assets/img/webring.svg"
+          alt="Webring.in.th Ring"
+          class="h-[32px] w-[32px]"
+        />
+      </div>
+
+      <!-- Logo -->
+      <div class="hidden lg:block">
+        <img
+          src="@/assets/img/wordmark.png"
+          alt="TINARSKII"
+          class="ml-auto w-1/3 invert"
+        />
       </div>
     </div>
 
-    <div class="big-image">
-      <img src="~/assets/img/cover.jpg" alt="Tin at National Science Museum">
+    <!-- Big image -->
+    <div class="flex w-full cursor-pointer flex-row">
+      <img
+        src="@/assets/img/cover.jpg"
+        alt="Tin at National Science Museum"
+        class="h-[65vh] w-full rounded-xl object-cover"
+      />
     </div>
 
-    <div class="title-container">
-      <h1>
-        Tinnaphat "Tin" Somsang
+    <!-- Title & Subtitle -->
+    <section class="flex flex-col items-center gap-2">
+      <h1 class="text-center text-5xl md:text-6xl">
+        {{ data.about.name.split(" ")[0] }} "{{ data.about.nick }}"
+        {{ data.about.name.split(" ")[1] }}
       </h1>
-      <h2>
-        Tinarskii
+      <h2 class="text-center text-xl italic text-gray-500 md:text-2xl">
+        ({{ data.about.aka }})
       </h2>
-    </div>
+    </section>
 
-    <article class="description-container">
+    <!-- About -->
+    <article class="text-left text-lg">
       {{ data.about.desc }}
     </article>
 
-    <div class="two-rows-grid">
-      <section class="grid-pane">
-        <header>🎈Personal Information</header>
-        <div class="pane-grid">
-          <p><b>Name</b></p>
-          <p>{{ data.about.name }}</p>
-          <p><b>Nickname</b></p>
-          <p>{{ data.about.nick }}</p>
-          <p><b>Also Known As</b></p>
-          <p>{{ data.about.aka }}</p>
-          <p><b>Date of Birth</b></p>
-          <p>{{ data.about.dob }}</p>
-          <p><b>Age</b></p>
-          <p>{{ data.about.age }}</p>
-          <p><b>Occupations</b></p>
-          <p>{{ data.about.jobs }}</p>
-          <p><b>Communication</b></p>
-          <p>{{ data.about.language }}</p>
+    <!-- Personal Info & Connect -->
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+      <!-- Personal Information -->
+      <section class="flex w-full flex-col gap-4">
+        <header class="cursor-pointer text-center text-4xl lg:text-left">
+          🎈Personal Information
+        </header>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div class="place-items-left grid grid-cols-2 items-center gap-6">
+            <p><b>Name</b></p>
+            <p>{{ data.about.name }}</p>
+            <p><b>Nickname</b></p>
+            <p>{{ data.about.nick }}</p>
+            <p><b>Also Known As</b></p>
+            <p>{{ data.about.aka }}</p>
+            <p><b>Date of Birth</b></p>
+            <p>{{ new Date(data.about.dob).toLocaleDateString("ja-JP") }}</p>
+            <p><b>Age</b></p>
+            <p>{{ data.about.age }}</p>
+            <p><b>Occupations</b></p>
+            <p>{{ data.about.jobs }}</p>
+            <p><b>Communication Skills</b></p>
+            <p>{{ data.about.language }}</p>
+          </div>
         </div>
       </section>
-      <section class="grid-pane">
+
+      <!-- Connect -->
+      <section class="flex w-full flex-col gap-4">
+        <header
+          class="cursor-pointer text-center text-4xl lg:text-left"
+          id="connect"
+        >
+          🔗Connect
+        </header>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div
+            class="place-items-left grid grid-cols-2 items-center gap-6"
+            v-for="(_, idx) in data.contact"
+          >
+            <p v-if="idx % 2 === 0">
+              <b>{{ data.contact[idx] }}</b>
+            </p>
+            <a
+              v-if="idx % 2 === 0"
+              target="_blank"
+              :href="`${
+                data.contact[idx] === 'Email'
+                  ? 'mailto:'
+                  : data.contact[idx] === 'Telephone'
+                  ? 'tel:'
+                  : '//'
+              }${data.contact[idx + 1]}`"
+            >
+              {{ data.contact[idx + 1].split("/").pop() }}
+            </a>
+          </div>
+        </div>
       </section>
     </div>
 
+    <!-- Education -->
+    <section class="flex w-full flex-col gap-4">
+      <header
+        class="cursor-pointer text-center text-4xl lg:text-left lg:text-left"
+      >
+        🎓Education
+      </header>
+      <div class="flex flex-row gap-6">
+        <p v-for="edu in data.education">
+          <b>{{ edu.name }}</b> ({{ edu.level }}) <br />
+          {{ edu.prog }}, <br />
+          GPAX: {{ edu.grade }} <br />
+          Graduate: {{ edu.grad || "TBD" }} <br />
+          <span v-if="edu.report">
+            View Reports:
+            <span
+              class="ml-2 inline-flex flex-row gap-2"
+              v-for="report in edu.report"
+            >
+              <a :href="report.path" class="font-bold underline">
+                {{ report.desc }}
+              </a>
+            </span>
+          </span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section class="flex w-full flex-col gap-4">
+      <header
+        class="cursor-pointer text-center text-4xl lg:text-left lg:text-left"
+      >
+        ✨Events
+      </header>
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <section
+          v-for="evt in data.events"
+          class="hoverable rounded-lg bg-white/10 bg-center"
+          :style="{ backgroundImage: `url(${evt.img})` }"
+        >
+          <div
+            class="flex h-full w-full flex-col justify-center gap-4 rounded-lg bg-black/75 p-6"
+          >
+            <div class="flex flex-col items-center justify-center">
+              <p class="text-xl">
+                <b>{{ evt.name }}</b>
+              </p>
+              <p>(Organized by {{ evt.org }})</p>
+            </div>
+            <p>as a {{ evt.roles }}</p>
+            <p>{{ evt.info }}</p>
+            <div class="flex flex-col items-center justify-center">
+              <p v-if="evt.award">Awards: {{ evt.award }}</p>
+              <p v-if="evt.links">
+                Links: <a :href="evt.links" class="underline">Watch</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="flex w-full flex-col gap-4">
+      <header class="cursor-pointer text-center text-4xl lg:text-left">
+        🧑‍💻Projects
+      </header>
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <section
+          v-for="project in data.projects"
+          :class="`rounded-xl bg-white/10 bg-center bg-no-repeat
+              ${project.full ? 'bg-cover' : 'bg-contain'} ${
+            project.img ? 'bg-center' : ''
+          }
+              hoverable`"
+          :style="{ backgroundImage: `url(${project.img})` }"
+        >
+          <div
+            class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6 text-center"
+          >
+            <p class="text-xl">
+              <b>{{ project.name }}</b> by {{ project.from }}
+            </p>
+            {{ project.info }}
+            <div class="flex flex-row gap-2">
+              <a :href="'//' + project.link" class="btn-primary btn-sm btn"
+                >Visit Website</a
+              >
+              <a :href="'//' + project.gh" class="btn-ghost btn-sm btn"
+                >View Repository</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Tech & Interests -->
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+      <!-- Techonology -->
+      <section class="flex w-full flex-col gap-4">
+        <header class="cursor-pointer text-center text-4xl lg:text-left">
+          💻Technology
+        </header>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div class="place-items-left grid grid-cols-2 items-center gap-6">
+            <p><b>Programming Languages</b></p>
+            {{ data.technology.lang.join(", ") }}
+            <p><b>Frameworks</b></p>
+            {{ data.technology.framework.join(", ") }}
+            <p><b>IDEs</b></p>
+            {{ data.technology.ides.join(", ") }}
+            <p><b>Tools</b></p>
+            {{ data.technology.tools.join(", ") }}
+            <p><b>Other</b></p>
+            {{ data.technology.misc.join(", ") }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests -->
+      <section class="flex w-full flex-col gap-4">
+        <header class="cursor-pointer text-center text-4xl lg:text-left">
+          💍Interests
+        </header>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div class="place-items-left grid grid-cols-2 items-center gap-6">
+            <p><b>Subject</b></p>
+            {{ data.interests.subject.join(", ") }}
+            <p><b>Games</b></p>
+            {{ data.interests.games.join(", ") }}
+            <p><b>Music</b></p>
+            {{ data.interests.music.join(", ") }}
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex w-full items-center justify-center">
+      <p class="text-center text-gray-400">
+        Copyright © 2022 Tinnaphat Somsang <br />
+        All rights reserved.
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
-  .page-container {
-    display: grid;
-    width: 100%;
-    place-items: center;
-    gap: 3rem;
-  }
-
-  .top-bar {
-    position: absolute;
-    padding: 2rem;
-    top: 0;
-    left: 0;
-  }
-
-  .icon-container {
-    display: flex;
-    flex-direction: row;
-    gap: .5rem;
-  }
-
-  .icon-container > img {
-    height: 32px;
-    width: 32px;
-  }
-
-  .big-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 83.5vw;
-    height: 63.5vh;
-    margin: auto;
-    border-radius: 20px;
-  }
-
-  .big-image > img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-  }
-
-  .title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .title-container > h1 {
-    font-size: 3.75rem;
-  }
-
-  .description-container {
-    font-size: 1.125rem;
-    text-align: justify;
-    line-height: 1.5rem;
-  }
-
-  .two-rows-grid {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2rem;
-  }
-
-  .grid-pane > header {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    text-align: left;
-  }
-
-  .grid-pane > .pane-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    .page-container {
-      margin-top: 6rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .description-container {
-      text-align: left;
-      max-width: 80vw;
-    }
-
-    .two-rows-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .grid-pane {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      gap: 1rem;
-    }
-  }
+.hoverable {
+  @apply transition-all duration-300 hover:scale-[1.05] hover:shadow-xl;
+}
 </style>
