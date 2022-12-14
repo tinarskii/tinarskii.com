@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ["@/assets/css/global.css"],
-  modules: ["@nuxt/image-edge"],
+  modules: ["@nuxt/image-edge", "@nuxt/content"],
   app: {
     head: {
       charset: "utf-8",
