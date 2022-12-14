@@ -167,7 +167,7 @@ import * as data from "../data.ts";
         <section
           v-for="evt in data.events"
           class="hoverable rounded-lg bg-white/10 bg-center"
-          :style="{ backgroundImage: `url(${evt.img})` }"
+          :style="{ backgroundImage: `url('${evt.img}')` }"
         >
           <div
             class="flex h-full w-full flex-col justify-center gap-4 rounded-lg bg-black/75 p-6"
@@ -204,7 +204,7 @@ import * as data from "../data.ts";
             project.img ? 'bg-center' : ''
           }
               hoverable`"
-          :style="{ backgroundImage: `url(${project.img})` }"
+          :style="{ backgroundImage: `url('${project.img}')` }"
         >
           <div
             class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6 text-center"
