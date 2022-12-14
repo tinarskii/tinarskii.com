@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://www.tinarskii.com/cover.jpg",
+          content: "https://www.tinarskii.com/banner.jpg",
           name: "image",
         },
         { property: "og:site_name", content: "Website of Tinarskii" },
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         },
         {
           property: "twitter:image",
-          content: "https://www.tinarskii.com/cover.jpg",
+          content: "https://www.tinarskii.com/banner.jpg",
         },
         {
           name: "keywords",
