@@ -205,6 +205,7 @@ import * as data from "../data.ts";
           }
               hoverable`"
           :style="{ backgroundImage: `url('${project.img}')` }"
+
         >
           <div
             class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6 text-center"
