@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "เด็กติดเกมที่จู่ ๆ ก็ถูกชะตาลิขิตมา... พอเหอะเดี๋ยวเข่าหาว่าเบียว",
+            "Hi there! I'm Tinnaphat Somsang, a website developer from Thailand. Despite that, I'm still a student at Assumption College Samutprakarn, learning science and math stuff. I also made some interesting and unpopular website like Wrong-Lang Web Application for example. (Well it was popular for some time, but I'm not sure if it's still popular now.) Don't get me wrong, some of it got popular (which I am mostly a contributor to), such as Learn Manoonchai and That Paper Game, both of them are by @narze tho. Oh what, are you interested in me? Thank you! I would be very appreciated if you donate me.",
           name: "description",
         },
         {
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         {
           property: "twitter:description",
           content:
-            "เด็กติดเกมที่จู่ ๆ ก็ถูกชะตาลิขิตมา... พอเหอะเดี๋ยวเข่าหาว่าเบียว",
+            "Hi there! I'm Tinnaphat Somsang, a website developer from Thailand. Despite that, I'm still a student at Assumption College Samutprakarn, learning science and math stuff. I also made some interesting and unpopular website like Wrong-Lang Web Application for example. (Well it was popular for some time, but I'm not sure if it's still popular now.) Don't get me wrong, some of it got popular (which I am mostly a contributor to), such as Learn Manoonchai and That Paper Game, both of them are by @narze tho. Oh what, are you interested in me? Thank you! I would be very appreciated if you donate me.",
         },
         {
           property: "twitter:image",
@@ -54,7 +54,7 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap",
         },
-        { rel: "icon", href: "~/assets/img/favicon.png" },
+        { rel: "icon", href: "/favicon.png" },
       ],
     },
   },
