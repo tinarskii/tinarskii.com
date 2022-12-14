@@ -57,9 +57,9 @@ export const education = [
     grade: "3.88 (Secondary 1)",
     prog: "i-Science (ACSP GEMS Project: i-Classroom)",
     report: [
-      { desc: "S.1 (1)", path: "/_nuxt/assets/img/report/semester1.png" },
-      { desc: "S.1 (2)", path: "/_nuxt/assets/img/report/semester2.png" },
-      { desc: "S.2 (1)", path: "/_nuxt/assets/img/report/semester3.jpeg" },
+      { desc: "S.1 (1)", path: "/report/semester1.png" },
+      { desc: "S.1 (2)", path: "/report/semester2.png" },
+      { desc: "S.2 (1)", path: "/report/semester3.jpeg" },
     ],
   },
 ];
@@ -119,7 +119,7 @@ export const projects = [
     info: "The Thai Mutation Language To Normal Thai Language Global Translator",
     gh: "github.com/wrong-lang/WrongLang",
     link: "www.wrong-lang.click",
-    img: "/_nuxt/assets/img/cover/wrong-lang.png",
+    img: "/cover/wrong-lang.png",
     full: true,
   },
   {
@@ -128,7 +128,7 @@ export const projects = [
     info: "Portable version of WrongLang, available now for Windows!",
     gh: "github.com/wrong-lang/spark",
     link: "spark.wrong-lang.click",
-    img: "/_nuxt/assets/img/cover/spark.png",
+    img: "/cover/spark.png",
     full: true,
   },
   {
@@ -137,7 +137,7 @@ export const projects = [
     info: "Sveltekit and TailwindCSS boilerplate with tests and more!",
     gh: "github.com/mulforma/Sveltaily",
     link: "",
-    img: "/_nuxt/assets/img/cover/taily.png",
+    img: "/cover/taily.png",
     full: true,
   },
   {
@@ -146,7 +146,7 @@ export const projects = [
     info: "SolidJS and TailwindCSS boilerplate with tests and more!",
     gh: "github.com/mulforma/HardTail",
     link: "hard-tail.vercel.app",
-    img: "/_nuxt/assets/img/cover/taily2.png",
+    img: "/cover/taily2.png",
     full: true,
   },
   {
@@ -155,7 +155,7 @@ export const projects = [
     info: "A discord bot built with Discord.js with a lot of functionality!",
     gh: "github.com/mulforma/moore",
     link: "mulforma.github.io/Moore",
-    img: "/_nuxt/assets/img/cover/moore.png",
+    img: "/cover/moore.png",
     full: true,
   },
   {
@@ -164,7 +164,7 @@ export const projects = [
     info: "The VVX URL Shortener, built with go",
     gh: "github.com/mulforma/xurlsh",
     link: "x.vvx.bar",
-    img: "/_nuxt/assets/img/cover/xurlsh.png",
+    img: "/cover/xurlsh.png",
     full: true,
   },
   {
@@ -173,7 +173,7 @@ export const projects = [
     info: "It's a storage for your links, with a simple and clean UI, build with SolidJS",
     gh: "github.com/mulforma/lynkr.lol",
     link: "lynkr.lol",
-    img: "/_nuxt/assets/img/cover/lynkr.png",
+    img: "/cover/lynkr.png",
     full: true,
   },
   {
@@ -182,7 +182,7 @@ export const projects = [
     info: "กรรม, but on blockchain (SHiT6 Project)",
     gh: "github.com/karma-soulbound",
     link: "localhost:3000",
-    img: "/_nuxt/assets/img/cover/de.png",
+    img: "/cover/de.png",
     full: true,
   },
   {
@@ -191,7 +191,7 @@ export const projects = [
     info: "Popcat, but it's a fish",
     gh: "",
     link: "pong-fish.vercel.app",
-    img: "/_nuxt/assets/img/cover/popfish.png",
+    img: "/cover/popfish.png",
     full: true,
   },
   {
@@ -200,7 +200,7 @@ export const projects = [
     info: "Collections of Thai Jokes Website",
     gh: "github.com/tinarskii/mukpakpak",
     link: "thjokes.tin-sci.me",
-    img: "/_nuxt/assets/img/cover/mukpakpak.png",
+    img: "/cover/mukpakpak.png",
     full: true,
   },
   {
@@ -209,7 +209,7 @@ export const projects = [
     info: "Collections of awesome quotes from 🍛",
     gh: "github.com/tinarskii/awesome-curry-quotes",
     link: "watacurry.vercel.app",
-    img: "/_nuxt/assets/img/cover/watacurry.png",
+    img: "/cover/watacurry.png",
     full: true,
   },
   {
@@ -218,7 +218,7 @@ export const projects = [
     info: "Soundboard but it's all neps",
     gh: "github.com/tinarskii/soundnep",
     link: "soundnep.tin-sci.me",
-    img: "/_nuxt/assets/img/cover/soundnep.gif",
+    img: "/cover/soundnep.gif",
     full: true,
   },
 ];

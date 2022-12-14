@@ -88,7 +88,7 @@ import * as data from "../data.ts";
             <p>{{ data.about.age }}</p>
             <p><b>Occupations</b></p>
             <p>{{ data.about.jobs }}</p>
-            <p><b>Communication Skills</b></p>
+            <p><b>Languages</b></p>
             <p>{{ data.about.language }}</p>
           </div>
         </div>
