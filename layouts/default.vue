@@ -1,7 +1,7 @@
 <template>
   <div class="page-layouts">
     <TopBar />
-      <slot />
+    <slot />
     <LazyFooter />
   </div>
 </template>
