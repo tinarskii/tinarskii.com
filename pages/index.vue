@@ -81,6 +81,7 @@ import * as data from "../data.ts";
                 ? 'tel:'
                 : '//'
             }${data.contact[idx + 1]}`"
+            rel="me"
           >
             {{ data.contact[idx + 1].split("/").pop() }}
           </a>
