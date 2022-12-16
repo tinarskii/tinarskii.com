@@ -28,7 +28,7 @@ export const contact = [
   "Medium",
   "tinarskii.medium.com/#/tinarskii",
   "Mastodon",
-  "mastodon.in.th/@tin@mastodon.in.th",
+  "mastodon.in.th/@tin/#/@tin@mastodon.in.th",
   "TikTok",
   "tiktok.com/@tinarskii/#/tinarskii",
   "Instagram",
