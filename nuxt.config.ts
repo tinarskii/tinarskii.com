@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Hi there! I'm Tinnaphat Somsang, a website developer from Thailand. Despite that, I'm still a student at Assumption College Samutprakarn, learning science and math stuff. I also made some interesting and unpopular website like Wrong-Lang Web Application for example. (Well it was popular for some time, but I'm not sure if it's still popular now.) Don't get me wrong, some of it got popular (which I am mostly a contributor to), such as Learn Manoonchai and That Paper Game, both of them are by @narze tho. Oh what, are you interested in me? Thank you! I would be very appreciated if you donate me.",
+            "I'm a student in 8th grade at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
           name: "description",
         },
         {
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         {
           property: "twitter:description",
           content:
-            "Hi there! I'm Tinnaphat Somsang, a website developer from Thailand. Despite that, I'm still a student at Assumption College Samutprakarn, learning science and math stuff. I also made some interesting and unpopular website like Wrong-Lang Web Application for example. (Well it was popular for some time, but I'm not sure if it's still popular now.) Don't get me wrong, some of it got popular (which I am mostly a contributor to), such as Learn Manoonchai and That Paper Game, both of them are by @narze tho. Oh what, are you interested in me? Thank you! I would be very appreciated if you donate me.",
+            "I'm a student in 8th grade at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
         },
         {
           property: "twitter:image",
