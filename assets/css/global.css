@@ -20,3 +20,7 @@ article,
 section {
   font-family: "Roboto", sans-serif;
 }
+
+.page-layouts {
+  @apply grid w-full place-items-center gap-12 px-4 py-16 md:my-24 md:px-32 md:py-0
+}
