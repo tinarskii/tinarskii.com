@@ -1,7 +1,7 @@
 export const about = {
   name: "Tinnaphat Somsang",
   nick: "Tin",
-  desc: "I'm a student in 8th grade at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
+  desc: "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
   dob: 1226282400000,
   age: new Date(new Date().getTime() - 1226282400000).getFullYear() - 1970,
   aka: "Tinarskii",

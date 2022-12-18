@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 header {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Merriweather", "Sarabun", sans-serif;
 }
 
 p,
@@ -18,7 +18,7 @@ button,
 input,
 article,
 section {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Sarabun", sans-serif;
 }
 
 .page-layouts {

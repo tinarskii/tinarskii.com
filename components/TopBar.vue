@@ -1,8 +1,8 @@
 <template>
   <!-- Top bar elements -->
-  <div class="flex w-full flex-row justify-between">
+  <div class="flex w-full flex-row items-center justify-between">
     <!-- Rings -->
-    <div class="top-0 left-0 mx-auto flex flex-row items-center gap-4 md:mx-0">
+    <div class="top-0 left-0 mx-0 flex flex-row items-center gap-4">
       <a
         href="https://creatorsgarten.org/ring"
         title="Creatorsgarten Ring"
@@ -24,11 +24,11 @@
     </div>
 
     <!-- Logo -->
-    <div class="hidden lg:block">
+    <div class="block" @click="navigateTo('/')">
       <img
         src="@/assets/img/wordmark.png"
         alt="TINARSKII"
-        class="ml-auto w-1/3 invert"
+        class="ml-auto h-8 cursor-pointer invert lg:h-full lg:w-1/3"
       />
     </div>
   </div>
