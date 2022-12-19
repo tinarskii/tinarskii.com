@@ -11,18 +11,18 @@ export default defineNuxtConfig({
         {
           property: "og:title",
           content: "Website of Tinarskii",
-          name: "title",
+          name: "title"
         },
         {
           property: "og:description",
           content:
             "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
-          name: "description",
+          name: "description"
         },
         {
           property: "og:image",
           content: "https://www.tinarskii.com/banner.jpg",
-          name: "image",
+          name: "image"
         },
         { property: "og:site_name", content: "Website of Tinarskii" },
         { property: "og:url", content: "https://www.tinarskii.com" },
@@ -32,36 +32,36 @@ export default defineNuxtConfig({
         {
           property: "twitter:description",
           content:
-            "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
+            "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!"
         },
         {
           property: "twitter:image",
-          content: "https://www.tinarskii.com/banner.jpg",
+          content: "https://www.tinarskii.com/banner.jpg"
         },
         {
           name: "keywords",
-          content: "solidjs,tinarskii,tinnaphat,ติณณภัทร์,ทินนาร์สกี้",
-        },
+          content: "solidjs,tinarskii,tinnaphat,ติณณภัทร์,ทินนาร์สกี้"
+        }
       ],
       link: [
         { rel: "preconnect", href: "fonts.googleapis.com" },
         {
           rel: "preconnect",
           href: "fonts.gstatic.com",
-          crossorigin: "anonymous",
+          crossorigin: "anonymous"
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&family=Sarabun&family=Taviraj&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&family=Sarabun&family=Taviraj&display=swap"
         },
-        { rel: "icon", href: "/favicon.png" },
-      ],
-    },
+        { rel: "icon", href: "/favicon.png" }
+      ]
+    }
   },
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
+      autoprefixer: {}
+    }
   },
 });
