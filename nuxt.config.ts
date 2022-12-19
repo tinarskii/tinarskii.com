@@ -52,7 +52,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&family=Sarabun&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&family=Sarabun&family=Taviraj&display=swap",
         },
         { rel: "icon", href: "/favicon.png" },
       ],

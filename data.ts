@@ -58,11 +58,6 @@ export const education = [
     level: "Secondary School",
     grade: "3.88 (Secondary 1)",
     prog: "i-Science (ACSP GEMS Project: i-Classroom)",
-    report: [
-      { desc: "S.1 (1)", path: "/report/semester1.png" },
-      { desc: "S.1 (2)", path: "/report/semester2.png" },
-      { desc: "S.2 (1)", path: "/report/semester3.jpeg" },
-    ],
   },
 ];
 
@@ -257,5 +252,14 @@ export const courses = [
     by: "Meta",
     link: "https://coursera.org/verify/GTU6MQWYHHWS",
     img: "https://coursera-certificate-images.s3.amazonaws.com/GTU6MQWYHHWS",
+  },
+];
+
+export const authors = [
+  {
+    id: 1,
+    name: "Tinnaphat Somsang",
+    img: "https://avatars.githubusercontent.com/u/68820538?s=400&u=a526b635f4697a8dd1bd21db3094bac915e5b563&v=4",
+    bio: "A student who loves to code and learn new things",
   },
 ];

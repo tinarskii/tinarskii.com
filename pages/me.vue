@@ -1,5 +1,5 @@
 <script setup>
-import * as data from "../data.ts";
+import * as data from "~/data.ts";
 </script>
 
 <template>
@@ -103,17 +103,6 @@ import * as data from "../data.ts";
         {{ edu.prog }}, <br />
         GPAX: {{ edu.grade }} <br />
         Graduate: {{ edu.grad || "TBD" }} <br />
-        <span v-if="edu.report">
-          View Reports:
-          <span
-            class="ml-2 inline-flex flex-row gap-2"
-            v-for="report in edu.report"
-          >
-            <a :href="report.path" class="font-bold underline">
-              {{ report.desc }}
-            </a>
-          </span>
-        </span>
       </p>
     </div>
   </section>
