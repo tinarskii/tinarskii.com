@@ -5,6 +5,7 @@ export default defineEventHandler(async (event) => {
   // Fetch all documents
   const feed = new RSS({
     title: "Website of Tinarskii",
+    description: "My website obviously, duh.",
     site_url: "https://tinarskii.com",
     feed_url: "https://tinarskii.com/rss.xml",
   });
