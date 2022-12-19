@@ -15,9 +15,9 @@ const { data } = await useAsyncData(`content-${path}`, () => {
           :src="data?.image"
         />
       </div>
-      <div class="flex flex-col gap-2 items-center justify-center">
-        <h1 class="lg:text-6xl text-4xl font-bold">{{ data.title }}</h1>
-        <h2 class="lg:text-2xl text-xl italic">{{ data.description }}</h2>
+      <div class="flex flex-col items-center justify-center gap-2">
+        <h1 class="text-4xl font-bold lg:text-6xl">{{ data.title }}</h1>
+        <h2 class="text-xl italic lg:text-2xl">{{ data.description }}</h2>
       </div>
 
       <p>
@@ -29,6 +29,6 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 
 <style scoped>
 h1 {
-  @apply lg:text-6xl text-4xl
+  @apply text-4xl lg:text-6xl;
 }
 </style>
