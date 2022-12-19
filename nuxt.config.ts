@@ -64,4 +64,9 @@ export default defineNuxtConfig({
       autoprefixer: {}
     }
   },
+  nitro: {
+    prerender: {
+      routes: ["/rss.xml", "/sitemap.xml"]
+    }
+  }
 });

@@ -21,10 +21,12 @@
   "dependencies": {
     "@nuxt/content": "^2.3.0",
     "@nuxt/image-edge": "1.0.0-27840416.dc1ed65",
+    "@types/rss": "^0.0.29",
     "@vue/eslint-config-prettier": "^7.0.0",
     "daisyui": "^2.43.2",
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
+    "rss": "^1.2.2",
     "typescript": "^4.9.4"
   }
 }
