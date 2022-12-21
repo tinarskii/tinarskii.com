@@ -107,7 +107,7 @@ useContentHead(data.head);
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
-.content > * > * > img {
+.content * > img {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 

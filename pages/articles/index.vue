@@ -142,8 +142,4 @@ const indexName = "new-index-1671618013";
 .ais-Hits-list {
   @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3;
 }
-
-ol {
-  display: flex;
-}
 </style>
