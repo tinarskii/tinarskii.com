@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
       url: `https://tinarskii.com${doc._path}`,
       date: doc.date,
       description: doc.description,
-    })
+    });
   }
 
   const feedString = feed.xml({ indent: true });

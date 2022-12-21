@@ -1,20 +1,20 @@
-import { serverQueryContent } from '#content/server'
-import { SitemapStream, streamToPromise } from 'sitemap'
+import { serverQueryContent } from "#content/server";
+import { SitemapStream, streamToPromise } from "sitemap";
 
 export default defineEventHandler(async (event) => {
   // Fetch all documents
-  const docs = await serverQueryContent(event).find()
+  const docs = await serverQueryContent(event).find();
   const sitemap = new SitemapStream({
-    hostname: 'https://tinarskii.com'
-  })
+    hostname: "https://tinarskii.com",
+  });
 
   for (const doc of docs) {
     sitemap.write({
       url: doc._path,
-      changefreq: 'monthly'
-    })
+      changefreq: "monthly",
+    });
   }
-  sitemap.end()
+  sitemap.end();
 
-  return streamToPromise(sitemap)
-})
+  return streamToPromise(sitemap);
+});

@@ -1,5 +1,5 @@
 <script setup>
-import * as data from "~/data.ts";
+import * as data from "~/data/data.ts";
 </script>
 
 <template>
@@ -71,10 +71,10 @@ import * as data from "~/data.ts";
           <p v-if="idx % 2 === 0">
             <b>{{ data.contact[idx] }}</b>
           </p>
-          <a
+          <NuxtLink
             v-if="idx % 2 === 0"
             target="_blank"
-            :href="`${
+            :to="`${
               data.contact[idx] === 'Email'
                 ? 'mailto:'
                 : data.contact[idx] === 'Telephone'
@@ -84,7 +84,7 @@ import * as data from "~/data.ts";
             rel="me"
           >
             {{ data.contact[idx + 1].split("/").pop() }}
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </section>
@@ -134,7 +134,8 @@ import * as data from "~/data.ts";
           <div class="flex flex-col items-center justify-center">
             <p v-if="evt.award">Awards: {{ evt.award }}</p>
             <p v-if="evt.links">
-              Links: <a :href="evt.links" class="underline">Watch</a>
+              Links:
+              <NuxtLink :to="evt.links" class="underline">Watch</NuxtLink>
             </p>
           </div>
         </div>
@@ -165,12 +166,12 @@ import * as data from "~/data.ts";
           </p>
           {{ project.info }}
           <div class="flex flex-row gap-2">
-            <a :href="'//' + project.link" class="btn-primary btn-sm btn"
-              >Visit Website</a
-            >
-            <a :href="'//' + project.gh" class="btn-ghost btn-sm btn"
-              >View Repository</a
-            >
+            <NuxtLink :to="'//' + project.link" class="btn-primary btn-sm btn">
+              Visit Website
+            </NuxtLink>
+            <NuxtLink :to="'//' + project.gh" class="btn-ghost btn-sm btn">
+              View Repository
+            </NuxtLink>
           </div>
         </div>
       </section>

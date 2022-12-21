@@ -1,5 +1,5 @@
 <script setup>
-import { authors } from "~/data";
+import { authors } from "~/data/data";
 const { path } = useRoute();
 
 const { data } = await useAsyncData(`content-${path}`, () => {
@@ -10,6 +10,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 <template>
   <main class="flex flex-col gap-12">
     <ContentRenderer v-if="data" :value="data">
+      <!-- Article Big Image -->
       <div
         class="h-[65vh] w-full rounded-xl"
         :style="{
@@ -18,6 +19,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
           backgroundPosition: 'center',
         }"
       >
+        <!-- Title & Subtitles -->
         <div
           class="flex h-full w-full flex-col items-center justify-center gap-12 rounded-xl bg-black/75 px-12 duration-200 hover:bg-black/50 lg:px-24"
         >
@@ -25,26 +27,35 @@ const { data } = await useAsyncData(`content-${path}`, () => {
           <h2 class="subtitle">{{ data.description }}</h2>
         </div>
       </div>
-      <div class="flex flex-col gap-6 lg:flex-row">
-        <div class="flex w-full flex-col gap-12 lg:w-full">
+
+      <!-- Article Container -->
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+        <!-- Article Metadata -->
+        <div class="flex w-full flex-col gap-4">
+          <!-- Author -->
           <div class="flex flex-col gap-4">
-            <h1 class="text-4xl">Author</h1>
-            <div class="flex w-full flex-row gap-4 rounded-xl bg-white/10 p-4">
-              <img
-                :src="authors[Number(data?.author_id) - 1 || 0].img"
-                alt="User avatar"
-                class="h-12 w-12 rounded-full"
-              />
-              <div class="flex flex-col gap-2">
-                <span class="text-lg font-bold">{{
-                  authors[Number(data?.author_id) - 1 || 0].name
-                }}</span>
-                <span class="text-base">{{
-                  authors[Number(data?.author_id) - 1 || 0].bio
+            <h1 class="text-center text-4xl">Author</h1>
+            <div
+              class="flex flex-col items-center justify-center gap-4 rounded-lg border border-neutral-content/20 bg-neutral-content/10 p-2 transition-all duration-200 hover:-translate-y-1 hover:bg-blue-200/20 hover:shadow-xl"
+              @click="navigateTo(`/articles/author/${data.author_id}`)"
+            >
+              <div class="flex flex-col items-center justify-center gap-2">
+                <img
+                  :src="authors[data.author_id - 1].img"
+                  alt="Avatar"
+                  class="h-24 w-24 rounded-full"
+                />
+                <span class="article-title text-2xl font-bold">{{
+                  authors[data.author_id - 1].name
                 }}</span>
               </div>
+              <p class="text-center text-lg">
+                {{ authors[data.author_id - 1].bio }}
+              </p>
             </div>
           </div>
+
+          <!-- Tags -->
           <div class="flex flex-col gap-4">
             <h1 class="text-4xl">Tags</h1>
             <div class="flex flex-row flex-wrap gap-2">
@@ -52,15 +63,18 @@ const { data } = await useAsyncData(`content-${path}`, () => {
                 v-for="tag in data?.tags"
                 class="flex flex-row items-center justify-center gap-2 rounded-xl bg-white/10 p-2"
               >
-                <span class="text-lg font-bold">{{ tag }}</span>
+                <NuxtLink
+                  :to="`/articles/tags/${tag}`"
+                  class="text-lg font-bold"
+                  >{{ tag }}</NuxtLink
+                >
               </div>
             </div>
           </div>
         </div>
-        <div class="divider lg:divider-horizontal"></div>
-        <p>
-          <ContentDoc class="content flex flex-col gap-4" />
-        </p>
+
+        <!-- Article Content -->
+        <ContentDoc class="content col-span-3 flex flex-col gap-4" />
       </div>
     </ContentRenderer>
   </main>
@@ -89,25 +103,27 @@ const { data } = await useAsyncData(`content-${path}`, () => {
   @apply border-l-4 border-white/20 bg-white/10 p-4 text-lg lg:text-xl;
 }
 
-.content > p > img {
+.content > * > img {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
-.content > p > figcaption {
+.content > * > figcaption {
   @apply text-center italic text-gray-400;
 }
 
-.content > p > a {
+.content > h3,
+p > a {
   text-decoration: unset;
   text-decoration: underline;
+  font-weight: 700;
 }
 
 .content > ul {
-  @apply list-disc list-inside;
+  @apply list-inside list-disc;
 }
 
 .content > iframe {
-  @apply rounded-xl mx-auto;
+  @apply mx-auto max-w-full rounded-xl;
 }
 
 .title {
