@@ -11,9 +11,9 @@ image:
     src: 'https://miro.medium.com/max/1100/1*mfx1Bd2vXn0LmMXU6sczXQ.gif'
 head:
     meta:
-        - name: 'og:title'
+        - property: 'og:title'
           content: 'เรื่องราวของค่าพาย (π)'
-        - name: 'og:description'
+        - property: 'og:description'
           content: 'หลาย ๆ คนคงจะเจอค่าพาย (π) ในวิชาคณิตศาสตร์บ่อย ๆ แต่ว่าจริง ๆ แล้วมันคืออะไรกันนะ? มันอร่อยไหม? แล้วมันหายังไง? วันนี้เรามาหาคำตอบกันแบบง่าย ๆ กันดีกว่า!'
 ---
 

@@ -2,11 +2,9 @@
 import { authors } from "~/data/data";
 const { path } = useRoute();
 
-const { data } = await useAsyncData(`content-${path}`, () => {
-  return queryContent().where({ _path: path }).findOne();
-});
+const { data } = await useAsyncData(`content-${path}`, queryContent().where({ _path: path }).findOne);
 
-useContentHead(data.page);
+useContentHead(data.head);
 </script>
 
 <template>

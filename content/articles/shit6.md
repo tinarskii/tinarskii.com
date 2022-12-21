@@ -11,9 +11,9 @@ image:
     src: 'https://miro.medium.com/max/1100/0*XbiiAsRMnwq_JrgE'
 head:
     meta:
-        - name: 'og:title'
+        - property: 'og:title'
           content: 'แชร์ประสบการณ์ Stupid Hackathon Thailand 6'
-        - name: 'og:description'
+        - property: 'og:description'
           content: 'มาแชร์ประสบการณ์กันดีกว่าว่า Stupid Hackathon จะบัดซบแค่ไหน!?'
 ---
 
