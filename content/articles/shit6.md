@@ -2,7 +2,7 @@
 id: 2
 title: "แชร์ประสบการณ์ Stupid Hackathon Thailand 6"
 description: "มาแชร์ประสบการณ์กันดีกว่าว่า Stupid Hackathon จะบัดซบแค่ไหน!?"
-image: "https://miro.medium.com/max/1100/0*XbiiAsRMnwq_JrgE"
+img: "https://miro.medium.com/max/1100/0*XbiiAsRMnwq_JrgE"
 author_id: 1
 tags: [events, creatorsgarten, hacktathon, shit6]
 date: "Jul 3, 2022"

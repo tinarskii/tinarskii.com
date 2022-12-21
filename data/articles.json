@@ -4,7 +4,7 @@
     "title": "แหกแล้วได้เสื้อ กับการแชร์ประสบการณ์ Hacktoberfest Thailand 2022",
     "description": "… มาจะกล่าวบทไป ถึงเรื่องที่ผมได้ไปงาน Hacktoberfest ที่ออฟฟิศ Thoughtworks …",
     "id": 3,
-    "image": "https://miro.medium.com/max/1100/1*0DQlVH0bYOGG_UEhrOMN0g.webp",
+    "img": "https://miro.medium.com/max/1100/1*0DQlVH0bYOGG_UEhrOMN0g.webp",
     "author_id": 1,
     "tags": ["events", "creatorsgarten", "hactoberfest", "htbf2022"],
     "date": "Oct 31, 2022"
@@ -14,7 +14,7 @@
     "title": "แชร์ประสบการณ์ Stupid Hackathon Thailand 6",
     "description": "มาแชร์ประสบการณ์กันดีกว่าว่า Stupid Hackathon จะบัดซบแค่ไหน!?",
     "id": 2,
-    "image": "https://miro.medium.com/max/1100/0*XbiiAsRMnwq_JrgE",
+    "img": "https://miro.medium.com/max/1100/0*XbiiAsRMnwq_JrgE",
     "author_id": 1,
     "tags": ["events", "creatorsgarten", "hacktathon", "shit6"],
     "date": "Jul 3, 2022"
@@ -24,7 +24,7 @@
     "title": "เรื่องราวของค่าพาย (π)",
     "description": "หลาย ๆ คนคงจะเจอค่าพาย (π) ในวิชาคณิตศาสตร์บ่อย ๆ แต่ว่าจริง ๆ แล้วมันคืออะไรกันนะ? มันอร่อยไหม? แล้วมันหายังไง? วันนี้เรามาหาคำตอบกันแบบง่าย ๆ กันดีกว่า!",
     "id": 1,
-    "image": "https://miro.medium.com/max/1100/1*mfx1Bd2vXn0LmMXU6sczXQ.gif",
+    "img": "https://miro.medium.com/max/1100/1*mfx1Bd2vXn0LmMXU6sczXQ.gif",
     "author_id": 1,
     "tags": ["math", "pi", "knowledge"],
     "date": "Feb 18, 2022"

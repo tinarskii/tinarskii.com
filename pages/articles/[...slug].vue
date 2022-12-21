@@ -16,7 +16,7 @@ useContentHead(data.page);
       <div
         class="h-[65vh] w-full rounded-xl"
         :style="{
-          backgroundImage: `url(${data.image})`,
+          backgroundImage: `url(${data.img})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }"

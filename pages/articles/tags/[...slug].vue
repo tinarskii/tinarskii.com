@@ -11,7 +11,7 @@ const articles = await queryContent("/articles")
     "author_id",
     "date",
     "tags",
-    "image",
+    "img",
   ])
   .where({ tags: { $contains: tags } })
   .find();
@@ -33,7 +33,7 @@ const articles = await queryContent("/articles")
           <div
             class="relative flex h-96 w-full w-full flex-col gap-0 rounded-xl bg-black/40 bg-origin-border bg-blend-multiply"
             :style="{
-              backgroundImage: `url(${item.image})`,
+              backgroundImage: `url(${item.img})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }"

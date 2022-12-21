@@ -2,7 +2,7 @@
 id: 1
 title: "เรื่องราวของค่าพาย (π)"
 description: "หลาย ๆ คนคงจะเจอค่าพาย (π) ในวิชาคณิตศาสตร์บ่อย ๆ แต่ว่าจริง ๆ แล้วมันคืออะไรกันนะ? มันอร่อยไหม? แล้วมันหายังไง? วันนี้เรามาหาคำตอบกันแบบง่าย ๆ กันดีกว่า!"
-image: "https://miro.medium.com/max/1100/1*mfx1Bd2vXn0LmMXU6sczXQ.gif"
+img: "https://miro.medium.com/max/1100/1*mfx1Bd2vXn0LmMXU6sczXQ.gif"
 author_id: 1
 tags: [math, pi, knowledge]
 date: "Feb 18, 2022"
