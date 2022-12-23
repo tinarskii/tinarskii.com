@@ -26,8 +26,10 @@
     <!-- Logo -->
     <div class="block">
       <NuxtLink to="/">
-        <img
-          src="@/assets/img/wordmark.png"
+        <nuxt-img
+          format="webp"
+          quality="50"
+          src="/wordmark.png"
           alt="TINARSKII"
           class="ml-auto h-8 cursor-pointer invert lg:h-full lg:w-1/3"
         />

@@ -1,10 +1,5 @@
 <script setup>
 import { authors } from "~/data/data";
-const { path } = useRoute();
-
-const { data } = await useAsyncData(`content-${path}`, queryContent().where({ _path: path }).findOne);
-
-useContentHead(data.head);
 </script>
 
 <template>
@@ -40,7 +35,9 @@ useContentHead(data.head);
               @click="navigateTo(`/articles/author/${data.author_id}`)"
             >
               <div class="flex flex-col items-center justify-center gap-2">
-                <img
+                <nuxt-img
+                  format="webp"
+                  quality="50"
                   :src="authors[data.author_id - 1].img"
                   alt="Avatar"
                   class="h-24 w-24 rounded-full"
@@ -115,7 +112,8 @@ useContentHead(data.head);
   @apply text-center italic text-gray-400;
 }
 
-.content > h3, p > a {
+.content > h3,
+p > a {
   text-decoration: unset;
   text-decoration: underline;
   font-weight: 700;
