@@ -25,6 +25,8 @@ export const contact = [
   "steamcommunity.com/id/tinarskii",
   "Reddit",
   "reddit.com/u/tinarskii",
+  "Chess.com",
+  "https://chess.com/member/warechu",
   "Medium",
   "tinarskii.medium.com/#/tinarskii",
   "Mastodon",
