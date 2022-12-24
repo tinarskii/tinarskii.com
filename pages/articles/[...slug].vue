@@ -1,10 +1,10 @@
 <script setup>
 import { authors } from "~/data/data";
-const currentPath = ref(useRoute().path);
+const currentPath = useRoute().path;
 
 const { data } = await useAsyncData(
-  `content-${currentPath.value}`,
-  queryContent().where({ _path: currentPath.value }).findOne
+  `content-${currentPath}`,
+  queryContent().where({ _path: currentPath }).findOne
 );
 </script>
 
@@ -48,7 +48,7 @@ const { data } = await useAsyncData(
                   alt="Avatar"
                   class="h-24 w-24 rounded-full"
                 />
-                <span class="article-title text-2xl font-bold">{{
+                <span class="article-title text-2xl font-bold text-center">{{
                   authors[data.author_id - 1].name
                 }}</span>
               </div>
