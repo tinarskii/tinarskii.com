@@ -48,7 +48,7 @@ const { data } = await useAsyncData(
                   alt="Avatar"
                   class="h-24 w-24 rounded-full"
                 />
-                <span class="article-title text-2xl font-bold text-center">{{
+                <span class="article-title text-center text-2xl font-bold">{{
                   authors[data.author_id - 1].name
                 }}</span>
               </div>

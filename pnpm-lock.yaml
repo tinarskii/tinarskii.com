@@ -7,6 +7,7 @@ specifiers:
   '@types/rss': ^0.0.29
   '@typescript-eslint/eslint-plugin': ^5.46.1
   '@typescript-eslint/parser': ^5.46.1
+  '@vercel/analytics': ^0.1.6
   '@vue/eslint-config-prettier': ^7.0.0
   algoliasearch: ^4.14.3
   autoprefixer: ^10.4.13
@@ -30,6 +31,7 @@ dependencies:
   '@nuxt/image-edge': 1.0.0-27840416.dc1ed65
   '@nuxtjs/algolia': 1.3.1_vue@3.2.45
   '@types/rss': 0.0.29
+  '@vercel/analytics': 0.1.6
   '@vue/eslint-config-prettier': 7.0.0_wdw3qg4p7crmsoaizcyntelyni
   algoliasearch: 4.14.3
   daisyui: 2.43.2_r4gnkvssmvyxmi2wmat5xbx36a
@@ -1288,6 +1290,12 @@ packages:
       hookable: 5.4.2
       vue: 3.2.45
     dev: true
+
+  /@vercel/analytics/0.1.6:
+    resolution: {integrity: sha512-zNd5pj3iDvq8IMBQHa1YRcIteiw6ZiPB8AsONHd8ieFXlNpLqhXfIYnf4WvTfZ7S1NSJ++mIM14aJnNac/VMXQ==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dev: false
 
   /@vercel/nft/0.22.5:
     resolution: {integrity: sha512-mug57Wd1BL7GMj9gXMgMeKUjdqO0e4u+0QLPYMFE1rwdJ+55oPy6lp3nIBCS8gOvigT62UI4QKUL2sGqcoW4Hw==}
