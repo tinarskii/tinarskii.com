@@ -1,5 +1,11 @@
 <script setup>
 import { authors } from "~/data/data";
+const currentPath = ref(useRoute().path);
+
+const { data } = await useAsyncData(
+  `content-${currentPath.value}`,
+  queryContent().where({ _path: currentPath.value }).findOne
+);
 </script>
 
 <template>
