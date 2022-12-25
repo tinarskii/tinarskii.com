@@ -1,6 +1,7 @@
 <script setup>
 import { authors } from "~/data/data";
-const currentPath = useRoute().path;
+
+let currentPath = useRoute().path.replace(/\/$/, "");
 
 const { data } = await useAsyncData(
   `content-${currentPath}`,
@@ -49,8 +50,8 @@ const { data } = await useAsyncData(
                   class="h-24 w-24 rounded-full"
                 />
                 <span class="article-title text-center text-2xl font-bold">{{
-                  authors[data.author_id - 1].name
-                }}</span>
+                    authors[data.author_id - 1].name
+                  }}</span>
               </div>
               <p class="text-center text-lg">
                 {{ authors[data.author_id - 1].bio }}
@@ -69,8 +70,26 @@ const { data } = await useAsyncData(
                 <NuxtLink
                   :to="`/articles/tags/${tag}`"
                   class="text-lg font-bold"
-                  >{{ tag }}</NuxtLink
+                >{{ tag }}
+                </NuxtLink
                 >
+              </div>
+            </div>
+          </div>
+
+          <!-- RSS -->
+          <div class="flex flex-col gap-4">
+            <h1 class="text-4xl">RSS</h1>
+            <div class="flex flex-row flex-wrap gap-2">
+              <div
+                class="flex flex-row items-center justify-center gap-2 rounded-xl bg-orange-500/10 p-2"
+              >
+                <a
+                  href="/rss.xml"
+                  class="text-lg font-bold text-orange-400"
+                >
+                  Subscribe
+                </a>
               </div>
             </div>
           </div>

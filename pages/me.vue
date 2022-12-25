@@ -5,12 +5,12 @@ import * as data from "~/data/data.ts";
 <template>
   <!-- Big image -->
   <div class="flex w-full cursor-pointer flex-row">
-    <nuxt-img
+    <lazy-nuxt-img
       format="webp"
       quality="50"
       src="/cover.jpg"
       alt="Tin at National Science Museum"
-      class="h-full w-full rounded-xl object-cover"
+      class="h-[65vh] w-full rounded-xl object-cover"
     />
   </div>
 

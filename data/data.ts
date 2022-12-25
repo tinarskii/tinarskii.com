@@ -98,7 +98,7 @@ export const events = [
     info: "⛳️Code Golf เป็นกิจกรรมนันทนาการสำหรับโปรแกรมเมอร์ เป็นกิจกรรมที่มีโจทย์ปัญหามาให้เขียนโปรแกรมแก้ แล้วมาหาวิธีแก้ที่ใช้ซอร์ซโค้ดขนาดเล็กที่สุด",
     award: "(None)",
     links: "https://www.facebook.com/showdown.space/videos/589192172698870",
-    img: "https://scontent.fbkk8-2.fna.fbcdn.net/v/t39.30808-6/298664741_1752854085047490_3476851038825162428_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=340051&_nc_eui2=AeE9vooIoEeknJZ24mQ4WGgPyByTlg-7EDjIHJOWD7sQOKaDuEf8HitPJ1Bbak5HkZpwJfhPJVsQU-buMszGUsYA&_nc_ohc=8-xfXWNS5uUAX8peEMt&_nc_ht=scontent.fbkk8-2.fna&oh=00_AfAMv-2BL-dmVZWaN6hCAogrWB-FKH68h_aYSEK6m6SetA&oe=6368B476",
+    img: "https://showdown.space/assets/banner.08ca525b.jpg",
   },
   {
     name: "Hacktoberfest Thailand 2022",
