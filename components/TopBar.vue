@@ -1,24 +1,28 @@
 <template>
   <!-- Top bar elements -->
-  <div class="flex w-full flex-row items-center justify-between">
+  <div class="flex w-full flex-row items-center justify-between gap-12">
     <!-- Rings -->
     <div class="top-0 left-0 mx-0 flex flex-row items-center gap-4">
       <NuxtLink
         to="https://creatorsgarten.org/ring"
         title="Creatorsgarten Ring"
-        class="h-[32px] w-[32px]"
+        class="max-w-[32px]"
       >
-        <img src="@/assets/img/ring-thin.svg" alt="Creatorsgarten Ring" />
+        <lazy-nuxt-img
+          src="/icons/ring-thin.svg"
+          alt="Creatorsgarten Ring"
+          sizes="xs:16px sm:32px"
+        />
       </NuxtLink>
       <NuxtLink
         to="https://webring.wonderful.software#tinarskii.com"
         title="วงแหวนเว็บ"
-        class="h-[32px] w-[32px]"
+        class="max-w-[32px]"
       >
-        <img
-          src="@/assets/img/webring.svg"
+        <lazy-nuxt-img
+          src="/icons/webring.svg"
           alt="Webring.in.th Ring"
-          class="h-[32px] w-[32px]"
+          sizes="xs:16px sm:32px"
         />
       </NuxtLink>
     </div>
@@ -26,12 +30,14 @@
     <!-- Logo -->
     <div class="block">
       <NuxtLink to="/">
+        <!-- 8.3 : 1 (Shitty ratio i know) -->
         <nuxt-img
           format="webp"
           quality="50"
           src="/wordmark.png"
           alt="TINARSKII"
-          class="ml-auto h-8 cursor-pointer invert lg:h-full lg:w-1/3"
+          class="ml-auto cursor-pointer invert"
+          sizes="xs:256px sm:300px"
         />
       </NuxtLink>
     </div>

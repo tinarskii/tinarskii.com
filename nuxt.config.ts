@@ -1,45 +1,39 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ["@/assets/css/tailwind.css", "@/assets/css/global.css"],
+  experimental: {
+    noScripts: true,
+  },
+  css: ["@/assets/css/fonts.css", "@/assets/css/tailwind.css", "@/assets/css/global.css"],
   modules: ["@nuxt/image-edge", "@nuxt/content", "@nuxtjs/algolia"],
   plugins: [{ src: "~/plugins/vercel.js", mode: "client" }],
   router: {
     options: {
       strict: true,
-    }
+    },
   },
+  ssr: false,
   app: {
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       link: [
-        { rel: "preconnect", href: "fonts.googleapis.com" },
-        {
-          rel: "preconnect",
-          href: "fonts.gstatic.com",
-          crossorigin: "anonymous"
-        },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sarabun&family=Taviraj&family=Roboto&display=swap"
-        },
-        { rel: "icon", href: "/favicon.webp" }
-      ]
-    }
+        { rel: "icon", href: "/favicon.webp" },
+      ],
+    },
   },
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
-    }
+      autoprefixer: {},
+    },
   },
   nitro: {
     prerender: {
-      routes: ["/rss.xml", "/sitemap.xml"]
-    }
+      routes: ["/rss.xml", "/sitemap.xml"],
+    },
   },
   algolia: {
     apiKey: "de8d0a5488af034fc114248f4564c204",
     applicationId: "2OSL992M2B",
-  }
+  },
 });

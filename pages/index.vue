@@ -1,6 +1,6 @@
 <template>
   <div class="flex w-full cursor-pointer flex-row">
-    <lazy-nuxt-img
+    <nuxt-img
       format="webp"
       quality="50"
       src="/banner2023.png"

@@ -11,7 +11,7 @@ const { data } = await useAsyncData(
 
 <template>
   <main class="flex flex-col gap-12">
-    <ContentRenderer v-if="data" :value="data">
+    <LazyContentRenderer v-if="data" :value="data">
       <!-- Article Big Image -->
       <div
         class="h-[65vh] w-full rounded-xl"
@@ -50,8 +50,8 @@ const { data } = await useAsyncData(
                   class="h-24 w-24 rounded-full"
                 />
                 <span class="article-title text-center text-2xl font-bold">{{
-                    authors[data.author_id - 1].name
-                  }}</span>
+                  authors[data.author_id - 1].name
+                }}</span>
               </div>
               <p class="text-center text-lg">
                 {{ authors[data.author_id - 1].bio }}
@@ -70,9 +70,8 @@ const { data } = await useAsyncData(
                 <NuxtLink
                   :to="`/articles/tags/${tag}`"
                   class="text-lg font-bold"
-                >{{ tag }}
-                </NuxtLink
-                >
+                  >{{ tag }}
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -84,10 +83,7 @@ const { data } = await useAsyncData(
               <div
                 class="flex flex-row items-center justify-center gap-2 rounded-xl bg-orange-500/10 p-2"
               >
-                <a
-                  href="/rss.xml"
-                  class="text-lg font-bold text-orange-400"
-                >
+                <a href="/rss.xml" class="text-lg font-bold text-orange-400">
                   Subscribe
                 </a>
               </div>
@@ -98,7 +94,7 @@ const { data } = await useAsyncData(
         <!-- Article Content -->
         <ContentDoc class="content col-span-3 flex flex-col gap-4" />
       </div>
-    </ContentRenderer>
+    </LazyContentRenderer>
   </main>
 </template>
 
