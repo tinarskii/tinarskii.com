@@ -1,87 +1,102 @@
 /* <editor-fold desc="Taviraj font"> */
 @font-face {
-    font-family: 'Taviraj';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Taviraj'), local('Taviraj'), url("~/assets/fonts/Taviraj/Taviraj-Regular.ttf") format('truetype');
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Taviraj"), local("Taviraj"),
+    url("~/assets/fonts/Taviraj/Taviraj-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Taviraj';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Taviraj'), local('Taviraj'), url("~/assets/fonts/Taviraj/Taviraj-Italic.ttf") format('truetype');
+  font-family: "Taviraj";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Taviraj"), local("Taviraj"),
+    url("~/assets/fonts/Taviraj/Taviraj-Italic.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Taviraj';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Taviraj Bold'), local('Taviraj-Bold'), url("~/assets/fonts/Taviraj/Taviraj-Bold.ttf") format('truetype');
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Taviraj Bold"), local("Taviraj-Bold"),
+    url("~/assets/fonts/Taviraj/Taviraj-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Taviraj';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Taviraj Bold'), local('Taviraj-Bold'), url("~/assets/fonts/Taviraj/Taviraj-BoldItalic.ttf") format('truetype');
+  font-family: "Taviraj";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Taviraj Bold"), local("Taviraj-Bold"),
+    url("~/assets/fonts/Taviraj/Taviraj-BoldItalic.ttf") format("truetype");
 }
 /* </editor-fold> */
 /* <editor-fold desc="Sarabun font"> */
 @font-face {
-    font-family: 'Sarabun';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Sarabun'), local('Sarabun'), url("~/assets/fonts/Sarabun/Sarabun-Regular.ttf") format('truetype');
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sarabun"), local("Sarabun"),
+    url("~/assets/fonts/Sarabun/Sarabun-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Sarabun';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Sarabun'), local('Sarabun'), url("~/assets/fonts/Sarabun/Sarabun-Italic.ttf") format('truetype');
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Sarabun"), local("Sarabun"),
+    url("~/assets/fonts/Sarabun/Sarabun-Italic.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Sarabun';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Sarabun Bold'), local('Sarabun-Bold'), url("~/assets/fonts/Sarabun/Sarabun-Bold.ttf") format('truetype');
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Sarabun Bold"), local("Sarabun-Bold"),
+    url("~/assets/fonts/Sarabun/Sarabun-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Sarabun';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Sarabun Bold'), local('Sarabun-Bold'), url("~/assets/fonts/Sarabun/Sarabun-BoldItalic.ttf") format('truetype');
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Sarabun Bold"), local("Sarabun-Bold"),
+    url("~/assets/fonts/Sarabun/Sarabun-BoldItalic.ttf") format("truetype");
 }
 /* </editor-fold> */
 /* <editor-fold desc="Merriweather font"> */
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Merriweather'), local('Merriweather'), url("~/assets/fonts/Merriweather/Merriweather-Regular.ttf") format('truetype');
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Merriweather"), local("Merriweather"),
+    url("~/assets/fonts/Merriweather/Merriweather-Regular.ttf")
+      format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Merriweather'), local('Merriweather'), url("~/assets/fonts/Merriweather/Merriweather-Italic.ttf") format('truetype');
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Merriweather"), local("Merriweather"),
+    url("~/assets/fonts/Merriweather/Merriweather-Italic.ttf")
+      format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Merriweather Bold'), local('Merriweather-Bold'), url("~/assets/fonts/Merriweather/Merriweather-Bold.ttf") format('truetype');
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Merriweather Bold"), local("Merriweather-Bold"),
+    url("~/assets/fonts/Merriweather/Merriweather-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Merriweather Bold'), local('Merriweather-Bold'), url("~/assets/fonts/Merriweather/Merriweather-BoldItalic.ttf") format('truetype');
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Merriweather Bold"), local("Merriweather-Bold"),
+    url("~/assets/fonts/Merriweather/Merriweather-BoldItalic.ttf")
+      format("truetype");
 }
 /* </editor-fold> */

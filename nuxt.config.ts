@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   experimental: {
     noScripts: true,
   },
-  css: ["@/assets/css/fonts.css", "@/assets/css/tailwind.css", "@/assets/css/global.css"],
+  css: [
+    "@/assets/css/fonts.css",
+    "@/assets/css/tailwind.css",
+    "@/assets/css/global.css",
+  ],
   modules: ["@nuxt/image-edge", "@nuxt/content", "@nuxtjs/algolia"],
   plugins: [{ src: "~/plugins/vercel.js", mode: "client" }],
   router: {
@@ -16,9 +20,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      link: [
-        { rel: "icon", href: "/favicon.webp" },
-      ],
+      link: [{ rel: "icon", href: "/favicon.webp" }],
     },
   },
   postcss: {
