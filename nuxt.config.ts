@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  experimental: {
-    noScripts: true,
-  },
   css: [
     "@/assets/css/fonts.css",
     "@/assets/css/tailwind.css",
