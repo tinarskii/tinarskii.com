@@ -47,10 +47,10 @@ if (
 
 <template>
   <div class="page-layouts">
-    <LazyNuxtLoadingIndicator color="#f28c18" class="p-1" />
-    <LazyTopBar />
-    <LazyNavBar />
+    <NuxtLoadingIndicator color="#f28c18" class="p-1" />
+    <TopBar />
+    <NavBar />
     <slot />
-    <LazyFooter />
+    <Footer />
   </div>
 </template>
