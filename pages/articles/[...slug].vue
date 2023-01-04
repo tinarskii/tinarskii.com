@@ -59,6 +59,7 @@ const { data } = await useAsyncData(
             </div>
           </div>
 
+          <div class="divider hidden"></div>
           <!-- Tags -->
           <div class="flex flex-col gap-4">
             <h1 class="text-4xl">Tags</h1>
@@ -99,52 +100,57 @@ const { data } = await useAsyncData(
 </template>
 
 <style>
-.content > h1 {
+.content h1 {
   font-size: unset;
   font-family: "Taviraj", "Sarabun", sans-serif;
   @apply text-3xl font-bold lg:text-4xl;
 }
 
-.content > h2 {
+.content h2 {
   font-size: unset;
   font-family: "Taviraj", "Sarabun", sans-serif;
   @apply text-2xl font-bold lg:text-3xl;
 }
 
-.content > h3 {
+.content h3 {
   font-size: unset;
   font-family: "Taviraj", "Sarabun", sans-serif;
   @apply text-xl font-bold lg:text-2xl;
 }
 
-.content > blockquote {
+.content blockquote {
   @apply border-l-4 border-white/20 bg-white/10 p-4 text-lg lg:text-xl;
 }
 
-.content > * > img {
+.content img {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
-.content * > img {
+.content img {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
-.content > * > figcaption {
-  @apply text-center italic text-gray-400;
+.content figcaption {
+  @apply text-center italic text-gray-400 pb-4;
 }
 
-.content > h3,
-p > a {
+.content p > a {
   text-decoration: unset;
   text-decoration: underline;
   font-weight: 700;
 }
 
-.content > ul {
+.content ul > li > a {
+  text-decoration: unset;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.content ul {
   @apply list-inside list-disc;
 }
 
-.content > iframe {
+.content iframe {
   @apply mx-auto max-w-full rounded-xl;
 }
 
