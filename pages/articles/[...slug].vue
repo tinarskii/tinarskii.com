@@ -35,7 +35,7 @@ const { data } = await useAsyncData(
         <!-- Article Metadata -->
         <div class="flex w-full flex-col gap-4">
           <!-- Author -->
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col items-center justify-center gap-4">
             <h1 class="text-center text-4xl">Author</h1>
             <div
               class="flex flex-col items-center justify-center gap-4 rounded-lg border border-neutral-content/20 bg-neutral-content/10 p-2 transition-all duration-200 hover:-translate-y-1 hover:bg-blue-200/20 hover:shadow-xl"
