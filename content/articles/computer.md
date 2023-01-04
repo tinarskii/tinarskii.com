@@ -5,7 +5,7 @@ description: "คุณเคยตั้งคำถามกับตัวเ
 img: "/articles/computer/banner-com.jpg"
 author_id: 1
 tags: [history,computer,technology]
-date: "Jan 4, 2022"
+date: "Jan 4, 2023"
 
 image:
   src: "/articles/computer/banner-com.jpg"
