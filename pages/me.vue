@@ -10,7 +10,7 @@ import * as data from "~/data/data.ts";
       quality="50"
       src="/cover.jpg"
       alt="Tin at National Science Museum"
-      class="h-[65vh] w-full rounded-xl object-cover"
+      class="h-full w-full rounded-xl object-cover"
     />
   </div>
 

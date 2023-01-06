@@ -4,9 +4,9 @@
     <nuxt-img
       format="webp"
       quality="50"
-      src="/banner2023.png"
+      src="/tw.jpg"
       alt="2023 Tinarskii's Banner"
-      class="h-[65vh] w-full rounded-xl object-cover"
+      class="h-full w-full rounded-xl object-cover"
     />
   </div>
 </template>

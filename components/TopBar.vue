@@ -36,7 +36,7 @@
           quality="50"
           src="/wordmark.png"
           alt="TINARSKII"
-          class="ml-auto cursor-pointer invert"
+          class="ml-auto cursor-pointer"
           sizes="xs:256px sm:300px"
         />
       </NuxtLink>
