@@ -18,7 +18,9 @@ export default function Tag() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    document.getElementById("loader")!.style.display = "flex";
+  } else {
+    document.getElementById("loader")!.style.display = "none";
   }
 
   if (!articles?.length) {

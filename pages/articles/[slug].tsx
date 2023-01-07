@@ -20,8 +20,11 @@ export default function Article() {
         setLoading(false);
       });
   }, []);
+
   if (loading) {
-    return <div>Loading...</div>;
+    document.getElementById("loader")!.style.display = "flex";
+  } else {
+    document.getElementById("loader")!.style.display = "none";
   }
 
   if (!article?.slug) {

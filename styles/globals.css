@@ -111,3 +111,12 @@ section {
   font-family: "Taviraj", Tahoma, sans-serif;
   @apply text-lg lg:text-xl;
 }
+
+.loading {
+  z-index: 999999;
+  @apply fixed top-0 left-0 w-full h-full bg-black/50 flex flex-col items-center justify-center;
+}
+
+.loading > svg {
+  @apply animate-spin text-white;
+}
