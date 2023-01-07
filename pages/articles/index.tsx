@@ -5,6 +5,7 @@ import Image from "next/image";
 import { authors } from "../../data/data";
 import generateRssFeed from "../../scripts/generateRSS";
 import Meta from "../components/meta";
+import { useEffect } from "react";
 
 const searchClient = algoliasearch(
   "2OSL992M2B",
@@ -14,6 +15,15 @@ const indexName = "new-index-1671618013";
 
 function Hit({ hit }: any) {
   const router = useRouter();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const loader = document.getElementById('loader');
+      if (loader)
+        loader.style.display = 'none';
+    }
+  }, []);
+
   return (
     <div
       onClick={() => router.replace(hit._path)}

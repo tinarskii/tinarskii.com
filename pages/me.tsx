@@ -8,8 +8,16 @@ import Events from "./components/about/Events";
 import Projects from "./components/about/Projects";
 import TechAndInterests from "./components/about/TechAndInterests";
 import Meta from "./components/meta";
+import {useEffect} from "react";
 
 export default function About() {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const loader = document.getElementById('loader');
+      if (loader)
+        loader.style.display = 'none';
+    }
+  }, []);
   return (
     <>
       <Meta

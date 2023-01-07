@@ -11,8 +11,6 @@ export default function Tag() {
   useEffect(() => {
     if (loading) {
       document.getElementById("loader")!.style.display = "flex";
-    } else {
-      document.getElementById("loader")!.style.display = "none";
     }
 
     fetch(`/api/tags?tag=${window.location.href.split("/").pop()}`)
@@ -22,6 +20,10 @@ export default function Tag() {
         setLoading(false);
       });
   }, []);
+
+  if (!loading) {
+    document.getElementById("loader")!.style.display = "none";
+  }
 
   if (!articles?.length) {
     return <div>Article not found</div>;

@@ -11,8 +11,6 @@ export default function Tag() {
   useEffect(() => {
     if (loading) {
       document.getElementById("loader")!.style.display = "flex";
-    } else {
-      document.getElementById("loader")!.style.display = "none";
     }
     fetch(`/api/author?author_id=${window.location.href.split("/").pop()}`)
       .then((res) => res.json())
@@ -21,6 +19,10 @@ export default function Tag() {
         setLoading(false);
       });
   }, []);
+
+  if (!loading) {
+    document.getElementById("loader")!.style.display = "none";
+  }
 
   if (!articles?.length) {
     return <div>Article not found</div>;
