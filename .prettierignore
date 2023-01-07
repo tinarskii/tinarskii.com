@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.idea/
+
+package.json
+pnpm-lock.yaml
+
+tsconfig.json

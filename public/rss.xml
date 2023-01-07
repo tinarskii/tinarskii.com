@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Website of Tinarskii]]></title>
+        <description><![CDATA[uwu welcom to my site (*/ω＼*)]]></description>
+        <link>https://tinarskii.com</link>
+        <image>
+            <url>https://tinarskii.com/logo.png</url>
+            <title>Website of Tinarskii</title>
+            <link>https://tinarskii.com</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 07 Jan 2023 12:30:16 GMT</lastBuildDate>
+        <atom:link href="https://tinarskii.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 07 Jan 2023 12:30:16 GMT</pubDate>
+        <copyright><![CDATA[Copyright © 2023 Tinarskii, All Rights Reserved]]></copyright>
+        <item>
+            <title><![CDATA[เรื่องราวอันน่าทึ่งเกี่ยวกับคอมพิวเตอร์: จากเครื่องคิดเลขโบราณสู่เครื่องจักรสมัยใหม่]]></title>
+            <description><![CDATA[คุณเคยตั้งคำถามกับตัวเองหรือสงสัยไหมครับว่า คอมพิวเตอร์ที่เราใช้ในชีวิตประจำวันไม่ว่าจะทำงานหรือเล่นเกมเนี่ย มันมีประวัติหรือที่มาอย่างไร?]]></description>
+            <link>https://tinarskii.com/articles/undefined</link>
+            <guid isPermaLink="true">https://tinarskii.com/articles/undefined</guid>
+            <pubDate>Tue, 03 Jan 2023 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ประสบการณ์อันหวานขมในปี 2022]]></title>
+            <description><![CDATA[เปิดประสบการณ์ชีวิตสุด ๆ ไปเลย!]]></description>
+            <link>https://tinarskii.com/articles/undefined</link>
+            <guid isPermaLink="true">https://tinarskii.com/articles/undefined</guid>
+            <pubDate>Tue, 20 Dec 2022 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[แหกแล้วได้เสื้อ กับการแชร์ประสบการณ์ Hacktoberfest Thailand 2022]]></title>
+            <description><![CDATA[… มาจะกล่าวบทไป ถึงเรื่องที่ผมได้ไปงาน Hacktoberfest ที่ออฟฟิศ Thoughtworks …]]></description>
+            <link>https://tinarskii.com/articles/undefined</link>
+            <guid isPermaLink="true">https://tinarskii.com/articles/undefined</guid>
+            <pubDate>Sun, 30 Oct 2022 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[แชร์ประสบการณ์ Stupid Hackathon Thailand 6]]></title>
+            <description><![CDATA[มาแชร์ประสบการณ์กันดีกว่าว่า Stupid Hackathon จะบัดซบแค่ไหน!?]]></description>
+            <link>https://tinarskii.com/articles/undefined</link>
+            <guid isPermaLink="true">https://tinarskii.com/articles/undefined</guid>
+            <pubDate>Sat, 02 Jul 2022 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[เรื่องราวของค่าพาย (π)]]></title>
+            <description><![CDATA[หลาย ๆ คนคงจะเจอค่าพาย (π) ในวิชาคณิตศาสตร์บ่อย ๆ แต่ว่าจริง ๆ แล้วมันคืออะไรกันนะ? มันอร่อยไหม? แล้วมันหายังไง? วันนี้เรามาหาคำตอบกันแบบง่าย ๆ กันดีกว่า!]]></description>
+            <link>https://tinarskii.com/articles/undefined</link>
+            <guid isPermaLink="true">https://tinarskii.com/articles/undefined</guid>
+            <pubDate>Thu, 17 Feb 2022 17:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
