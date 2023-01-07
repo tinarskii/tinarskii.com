@@ -7,10 +7,16 @@ import Education from "./components/about/Education";
 import Events from "./components/about/Events";
 import Projects from "./components/about/Projects";
 import TechAndInterests from "./components/about/TechAndInterests";
+import Meta from "./components/meta";
 
 export default function About() {
   return (
     <>
+      <Meta
+        title="About"
+        description="Let's get to know each other..."
+        image="https://tinarskii.com/banner2023.png"
+      />
       {/* Big Image */}
       <div className="flex w-full cursor-pointer flex-row">
         <Image

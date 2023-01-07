@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Projects({ data }: any) {
-  if (!data?.projects) return <p>Error</p>
+  if (!data?.projects) return <p>Error</p>;
   return (
     <section className="flex w-full flex-col gap-4">
       <header className="cursor-pointer text-center text-4xl lg:text-left">
@@ -21,13 +21,13 @@ export default function Projects({ data }: any) {
               {project.info}
               <div className="flex flex-row gap-2">
                 <Link
-                  href={'https://' + project.link}
+                  href={"https://" + project.link}
                   className="btn-primary btn-sm btn"
                 >
                   Visit Website
                 </Link>
                 <Link
-                  href={'https://' + project.gh}
+                  href={"https://" + project.gh}
                   className="btn-ghost btn-sm btn"
                 >
                   View Repository

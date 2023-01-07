@@ -1,7 +1,7 @@
-import {education} from "../../../data/data";
+import { education } from "../../../data/data";
 
 export default function Education({ data }: any) {
-  if (!data?.education) return <p>Error</p>
+  if (!data?.education) return <p>Error</p>;
   return (
     <section className="flex w-full flex-col gap-4">
       <header className="cursor-pointer text-center text-4xl lg:text-left">

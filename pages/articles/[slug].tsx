@@ -4,6 +4,7 @@ import * as data from "../../data/data";
 import Link from "next/link";
 import Image from "next/image";
 import * as showdown from "showdown";
+import Meta from "../components/meta";
 
 export default function Article() {
   const router = useRouter();
@@ -28,6 +29,11 @@ export default function Article() {
   }
   return (
     <>
+      <Meta
+        title={article.data.title}
+        description={article.data.description}
+        image={article.data.img}
+      />
       <main className="flex flex-col gap-12">
         {/* Article Big Image */}
         <div

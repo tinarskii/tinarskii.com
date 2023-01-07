@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import { authors } from "../../data/data";
 import generateRssFeed from "../../scripts/generateRSS";
+import Meta from "../components/meta";
 
 const searchClient = algoliasearch(
   "2OSL992M2B",
@@ -71,7 +72,13 @@ function Hit({ hit }: any) {
 
 export default function Articles() {
   return (
-    <div className="flex w-full flex-col justify-center gap-6">
+    <>
+      <Meta
+        title="Articles"
+        description="Read more about my thoughts and ideas on various topics."
+        image="https://tinarskii.com/banner2023.png"
+      />
+      <div className="flex w-full flex-col justify-center gap-6">
       <div className="flex w-full flex-col gap-4">
         <h1 className="text-left text-4xl md:text-left md:text-6xl">
           Browse articles
@@ -84,6 +91,7 @@ export default function Articles() {
         </InstantSearch>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Events({ data }: any) {
-  if (!data?.events) return <p>Error</p>
+  if (!data?.events) return <p>Error</p>;
   return (
     <section className="flex w-full flex-col gap-4">
       <header className="cursor-pointer text-center text-4xl lg:text-left">

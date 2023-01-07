@@ -1,5 +1,5 @@
 export default function TechAndInterests({ data }: any) {
-  if (!data?.technology) return <p>Error</p>
+  if (!data?.technology) return <p>Error</p>;
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
       {/* Tech */}

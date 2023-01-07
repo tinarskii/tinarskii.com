@@ -6,6 +6,11 @@ const Meta = ({ title, description, image }: any) => {
       <title>Website of Tinarskii</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.webp" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:site" content="@tinarskii" />
+      <meta name="twitter:image" content={image} />
       <meta property="og:title" content={title} name="title" />
       <meta
         property="og:description"

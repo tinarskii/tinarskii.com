@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function InfoAndConnect({ data }: any) {
-  if (!data?.about) return <p>Error</p>
+  if (!data?.about) return <p>Error</p>;
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
       {/* Personal Information */}
