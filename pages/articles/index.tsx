@@ -79,18 +79,18 @@ export default function Articles() {
         image="https://tinarskii.com/banner2023.png"
       />
       <div className="flex w-full flex-col justify-center gap-6">
-      <div className="flex w-full flex-col gap-4">
-        <h1 className="text-left text-4xl md:text-left md:text-6xl">
-          Browse articles
-        </h1>
-        <InstantSearch indexName={indexName} searchClient={searchClient}>
-          <div className="flex w-full flex-row items-center">
-            <SearchBox />
-          </div>
-          <Hits hitComponent={Hit} />
-        </InstantSearch>
+        <div className="flex w-full flex-col gap-4">
+          <h1 className="text-left text-4xl md:text-left md:text-6xl">
+            Browse articles
+          </h1>
+          <InstantSearch indexName={indexName} searchClient={searchClient}>
+            <div className="flex w-full flex-row items-center">
+              <SearchBox />
+            </div>
+            <Hits hitComponent={Hit} />
+          </InstantSearch>
+        </div>
       </div>
-    </div>
     </>
   );
 }

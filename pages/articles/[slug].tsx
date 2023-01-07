@@ -13,6 +13,12 @@ export default function Article() {
   const converter = new showdown.Converter();
 
   useEffect(() => {
+    if (loading) {
+      document.getElementById("loader")!.style.display = "flex";
+    } else {
+      document.getElementById("loader")!.style.display = "none";
+    }
+
     fetch(`/api/article?slug=${window.location.href.split("/").pop()}`)
       .then((res) => res.json())
       .then((data) => {
@@ -20,12 +26,6 @@ export default function Article() {
         setLoading(false);
       });
   }, []);
-
-  if (loading) {
-    document.getElementById("loader")!.style.display = "flex";
-  } else {
-    document.getElementById("loader")!.style.display = "none";
-  }
 
   if (!article?.slug) {
     return <div>Article not found</div>;

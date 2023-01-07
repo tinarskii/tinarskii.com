@@ -9,6 +9,11 @@ export default function Tag() {
   const [loading, setLoading] = useState<any>(true);
 
   useEffect(() => {
+    if (loading) {
+      document.getElementById("loader")!.style.display = "flex";
+    } else {
+      document.getElementById("loader")!.style.display = "none";
+    }
     fetch(`/api/author?author_id=${window.location.href.split("/").pop()}`)
       .then((res) => res.json())
       .then((data) => {
@@ -16,12 +21,6 @@ export default function Tag() {
         setLoading(false);
       });
   }, []);
-
-  if (loading) {
-    document.getElementById("loader")!.style.display = "flex";
-  } else {
-    document.getElementById("loader")!.style.display = "none";
-  }
 
   if (!articles?.length) {
     return <div>Article not found</div>;

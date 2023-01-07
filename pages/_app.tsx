@@ -5,14 +5,13 @@ import Topbar from "./components/topbar";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { Analytics } from "@vercel/analytics/react";
-import {useEffect} from "react";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const loader = document.getElementById('loader');
-      if (loader)
-        loader.style.display = 'none';
+    if (typeof window !== "undefined") {
+      const loader = document.getElementById("loader");
+      if (loader) loader.style.display = "none";
     }
   }, []);
 
