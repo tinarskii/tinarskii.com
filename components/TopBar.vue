@@ -8,10 +8,10 @@
         title="Creatorsgarten Ring"
         class="max-w-[32px]"
       >
-        <img
+        <nuxt-img
           src="/icons/ring-thin.svg"
           alt="Creatorsgarten Ring"
-          class="w-[32px] h-[32px]"
+          sizes="xs:16px sm:32px"
         />
       </NuxtLink>
       <NuxtLink
@@ -19,10 +19,10 @@
         title="วงแหวนเว็บ"
         class="max-w-[32px]"
       >
-        <img
+        <nuxt-img
           src="/icons/webring.svg"
           alt="Webring.in.th Ring"
-          class="w-[32px] h-[32px]"
+          sizes="xs:16px sm:32px"
         />
       </NuxtLink>
     </div>
@@ -31,10 +31,10 @@
     <div class="block">
       <NuxtLink to="/">
         <!-- 8.3 : 1 (Shitty ratio i know) -->
-        <img
+        <nuxt-img
           src="/wordmark.png"
           alt="TINARSKII"
-          class="w-[300px] ml-auto cursor-pointer"
+          sizes="xs:256px sm:300px"
         />
       </NuxtLink>
     </div>
