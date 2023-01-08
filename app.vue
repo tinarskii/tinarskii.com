@@ -13,13 +13,13 @@
 }
 
 .page-leave-to {
-  transform: translateX(100%);
+  transform: translateX(-100%);
   opacity: 0;
   overflow-x: hidden;
 }
 
 .page-enter-from {
-  transform: translateX(-100%);
+  transform: translateX(100%);
   opacity: 0;
   overflow-x: hidden;
 }

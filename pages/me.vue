@@ -6,8 +6,7 @@ import * as data from "~/data/data.ts";
   <div class="flex flex-col gap-12">
     <!-- Big image -->
     <div class="flex w-full cursor-pointer flex-row">
-      <nuxt-img
-        format="webp"
+      <img
         src="/cover.jpg"
         alt="Tin at National Science Museum"
         class="h-full w-full rounded-xl object-cover"

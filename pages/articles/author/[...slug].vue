@@ -63,9 +63,7 @@ const articles = await queryContent("/articles")
                 <!-- User card -->
                 <div class="rounded-b-xl bg-black/75 p-4">
                   <div class="flex w-full flex-row items-center gap-4">
-                    <nuxt-img
-                      format="webp"
-                      quality="50"
+                    <img
                       :src="authors[Number(item.author_id) - 1 || 0].img"
                       alt="User avatar"
                       class="h-12 w-12 rounded-full"

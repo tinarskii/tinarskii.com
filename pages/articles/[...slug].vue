@@ -42,8 +42,7 @@ const { data } = await useAsyncData(
               @click="navigateTo(`/articles/author/${data.author_id}`)"
             >
               <div class="flex flex-col items-center justify-center gap-2">
-                <nuxt-img
-                  format="webp"
+                <img
                   :src="authors[data.author_id - 1].img"
                   alt="Avatar"
                   class="h-24 w-24 rounded-full"
