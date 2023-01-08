@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: ["/rss.xml", "/sitemap.xml"],
     },
-    preset: "vercel-edge",
+    preset: "cloudflare-pages",
   },
   algolia: {
     apiKey: "de8d0a5488af034fc114248f4564c204",
