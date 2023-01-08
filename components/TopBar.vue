@@ -19,7 +19,7 @@
         title="วงแหวนเว็บ"
         class="max-w-[32px]"
       >
-        <nuxt-img
+        <img
           src="/icons/webring.svg"
           alt="Webring.in.th Ring"
           class="sm:w-[32px] sm:h-[32px] w-[16px] h-[16px]"
