@@ -32,8 +32,11 @@
       <NuxtLink to="/">
         <!-- 8.3 : 1 (Shitty ratio i know) -->
         <nuxt-img
+          format="webp"
+          quality="50"
           src="/wordmark.png"
           alt="TINARSKII"
+          class="ml-auto cursor-pointer invert"
           sizes="xs:256px sm:300px"
         />
       </NuxtLink>
