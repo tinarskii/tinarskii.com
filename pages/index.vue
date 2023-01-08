@@ -4,7 +4,6 @@
     <div class="flex w-full cursor-pointer flex-row">
       <nuxt-img
         format="webp"
-        quality="50"
         src="/tw.jpg"
         alt="2023 Tinarskii's Banner"
         class="h-full w-full rounded-xl object-cover"

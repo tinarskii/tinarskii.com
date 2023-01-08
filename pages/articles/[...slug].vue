@@ -44,7 +44,6 @@ const { data } = await useAsyncData(
               <div class="flex flex-col items-center justify-center gap-2">
                 <nuxt-img
                   format="webp"
-                  quality="50"
                   :src="authors[data.author_id - 1].img"
                   alt="Avatar"
                   class="h-24 w-24 rounded-full"
