@@ -34,7 +34,7 @@
         <img
           src="/wordmark.png"
           alt="TINARSKII"
-          class="w-[300px] h-[300px] ml-auto cursor-pointer"
+          class="w-[300px] ml-auto cursor-pointer"
         />
       </NuxtLink>
     </div>
