@@ -31,9 +31,9 @@ const { data } = await useAsyncData(
       </div>
 
       <!-- Article Container -->
-      <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+      <div class="grid grid-cols-1 md:gap-6 lg:grid-cols-4 ">
         <!-- Article Metadata -->
-        <div class="flex w-full flex-col gap-4">
+        <div class="flex w-full flex-col gap-4 w-full">
           <!-- Author -->
           <div class="flex flex-col items-center justify-center gap-4">
             <h1 class="text-center text-4xl">Author</h1>

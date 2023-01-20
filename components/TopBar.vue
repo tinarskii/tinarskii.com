@@ -11,7 +11,6 @@
         <img
           src="/icons/ring-thin.svg"
           alt="Creatorsgarten Ring"
-          class="sm:w-[32px] sm:h-[32px] w-[16px] h-[16px]"
         />
       </NuxtLink>
       <NuxtLink
@@ -22,7 +21,6 @@
         <img
           src="/icons/webring.svg"
           alt="Webring.in.th Ring"
-          class="sm:w-[32px] sm:h-[32px] w-[16px] h-[16px]"
         />
       </NuxtLink>
     </div>
@@ -34,7 +32,7 @@
         <img
           src="/wordmark.png"
           alt="TINARSKII"
-          class="sm:w-[300px] w-[256px] ml-auto cursor-pointer"
+          class="sm:w-[300px] w-[200px] ml-auto cursor-pointer"
         />
       </NuxtLink>
     </div>

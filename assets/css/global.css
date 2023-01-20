@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -19,7 +23,7 @@ section {
 }
 
 .page-layouts {
-  @apply grid w-full place-items-center gap-12 px-4 py-16 md:my-24 md:px-32 md:py-0;
+  @apply grid w-full place-items-center gap-12 px-2 py-16 md:my-24 md:px-24 md:py-0;
 }
 
 .article-title {

@@ -38,7 +38,7 @@ export const contact = [
   "Discord",
   "tinyurl.com/tinarskii#2065",
   "Website",
-  "www.tinarskii.com",
+  "tinarskii.com",
   "Blog (Hashnode)",
   "journey.tinarskii.com",
   "Email",
