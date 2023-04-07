@@ -30,7 +30,7 @@
       <NuxtLink to="/">
         <!-- 8.3 : 1 (Shitty ratio i know) -->
         <img
-          src="/wordmark.png"
+          src="/wordmark.svg"
           alt="TINARSKII"
           class="sm:w-[300px] w-[200px] ml-auto cursor-pointer"
         />
