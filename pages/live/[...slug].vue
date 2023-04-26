@@ -31,10 +31,15 @@ useHead({
     },
     {
       property: "og:image",
+      content: `http://tinarskii.com${epThumb}`,
+      name: "image",
+    },
+    {
+      property: "og:image:secure_url",
       content: `https://tinarskii.com${epThumb}`,
       name: "image",
     },
-    { property: "og:site_name", content: "Website of Tinarskii" },
+    { property: "og:site_name", content: "Website of TINARZEKY" },
     { property: "og:url", content: "https://tinarskii.com" },
     { property: "og:type", content: "website" },
     {
