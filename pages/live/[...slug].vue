@@ -31,7 +31,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: `https://tinarskii.com${epThumb}`,
+      content: epThumb,
       name: "image",
     },
     { property: "og:site_name", content: "Website of Tinarskii" },
