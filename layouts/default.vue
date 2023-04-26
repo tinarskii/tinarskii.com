@@ -10,7 +10,7 @@ if (
     queryContent().where({ _path: currentPath.value }).findOne
   );
   useContentHead((data as any).head);
-} else {
+} else if (!currentPath.value.includes("/live")) {
   useHead({
     title: "Website of Tinarskii",
     htmlAttrs: {

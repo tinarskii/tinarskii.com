@@ -8,6 +8,10 @@ const links = [
     name: "Articles",
     path: "/articles",
   },
+  {
+    name: "Live Streams",
+    path: "/lives",
+  },
 ];
 </script>
 
