@@ -29,4 +29,15 @@ export const lives = [
       youtube: "https://youtu.be/UgNF8j1dIdI",
     }
   },
+  {
+    type: "narzeky",
+    ep: '4',
+    name: "NARZEKY #4 — 💀 ลุงแดง",
+    thumb: "/nanachi.jpg",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1805742610",
+      youtube: "https://youtu.be/Wmtp6QOtOk0",
+    }
+  },
+
 ]
