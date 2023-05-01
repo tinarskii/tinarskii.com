@@ -39,5 +39,14 @@ export const lives = [
       youtube: "https://youtu.be/Wmtp6QOtOk0",
     }
   },
-
+  {
+    type: "narzeky",
+    ep: '5',
+    name: "NARZEKY #5 — 🤡 นมปั่น",
+    thumb: "/marulk.jpg",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1808458360",
+      youtube: "https://youtu.be/eQOGjfys8Q8",
+    }
+  },
 ]
