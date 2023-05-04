@@ -49,4 +49,14 @@ export const lives = [
       youtube: "https://youtu.be/eQOGjfys8Q8",
     }
   },
+  {
+    type: "narzeky",
+    ep: '6',
+    name: "NARZEKY #6 — 🍆💦",
+    thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-05.jpg",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1811027708",
+      youtube: "https://youtu.be/INyRTJC_kH0",
+    }
+  },
 ]
