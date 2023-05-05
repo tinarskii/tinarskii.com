@@ -23,7 +23,7 @@ export const lives = [
     type: "narzeky",
     ep: '3',
     name: "NARZEKY #3 — 🤣 ปภาวิชญ์ ขบขัน เฮฮา",
-    thumb: "/nanachi.jpg",
+    thumb: "/abisu.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1803927584",
       youtube: "https://youtu.be/UgNF8j1dIdI",
