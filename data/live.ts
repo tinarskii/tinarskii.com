@@ -106,7 +106,7 @@ export const lives = [
     thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-07.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713820",
-      youtube: "https://youtu.be/INyRTJC_kH0",
+      youtube: "https://youtu.be/YUIIsLw2HCM",
     }
   },  
 ]
