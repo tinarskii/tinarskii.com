@@ -92,7 +92,7 @@ export const lives = [
     ep: '6',
     cat: "narzeky",
     name: "NARZEKY #6 — 🍆💦",
-    thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-05.jpg",
+    thumb: "/aw.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1811027708",
       youtube: "https://youtu.be/INyRTJC_kH0",
@@ -103,7 +103,7 @@ export const lives = [
     ep: '1',
     cat: "just-tin",
     name: "JUST TIN #1 — 😂 หิวโหยกันเถอะ",
-    thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-02.jpg",
+    thumb: "/ambush.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713404",
       youtube: "https://youtu.be/dnRUHE0URro",
@@ -114,7 +114,7 @@ export const lives = [
     ep: '7',
     cat: "narzeky",
     name: "NARZEKY #7 — 🧽 ครูนุ่นกินฟองน้ำ",
-    thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-07.jpg",
+    thumb: "/prushka.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713820",
       youtube: "https://youtu.be/YUIIsLw2HCM",
