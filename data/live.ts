@@ -1,6 +1,6 @@
 export const lives = [
   {
-    type: "idontcode",
+    type: "i-dont-code",
     ep: '14',
     name: "I Don't Code #14 — เอา Candidates ทั้งหมดและจบเกมอย่าง Happy Ending",
     thumb: "https://i3.ytimg.com/vi/oIkaFufneHE/maxresdefault.jpg",
@@ -10,7 +10,7 @@ export const lives = [
     }
   },
   {
-    type: "idontcode",
+    type: "i-dont-code",
     ep: '20',
     name: "I Don't Code #20 — Rebirth2 แบบรีบ ๆ เลยนะ",
     thumb: "https://i3.ytimg.com/vi/v6vKJvDcgpw/maxresdefault.jpg",
@@ -90,7 +90,7 @@ export const lives = [
     }
   },  
   {
-    type: "justtin",
+    type: "just-tin",
     ep: '1',
     name: "JUST TIN #1 — 😂 หิวโหยกันเถอะ",
     thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-02.jpg",
@@ -121,7 +121,7 @@ export const lives = [
   },  
   {
     type: "narzeky",
-    ep: '8',
+    ep: '9',
     name: "NARZEKY #9 — 👻 ナナチエクスプレス",
     thumb: "/8AD47992-3E14-458D-8829-B74C050F1004.webp",
     links: {
