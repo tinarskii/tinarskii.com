@@ -1,6 +1,7 @@
 export const lives = [
   {
-    type: "i-dont-code",
+    type: "i-don't-code",
+    cat: "legacy-stream",
     ep: '14',
     name: "I Don't Code #14 — เอา Candidates ทั้งหมดและจบเกมอย่าง Happy Ending",
     thumb: "https://i3.ytimg.com/vi/oIkaFufneHE/maxresdefault.jpg",
@@ -10,7 +11,8 @@ export const lives = [
     }
   },
   {
-    type: "i-dont-code",
+    type: "i-don't-code",
+    cat: "legacy-stream",
     ep: '20',
     name: "I Don't Code #20 — Rebirth2 แบบรีบ ๆ เลยนะ",
     thumb: "https://i3.ytimg.com/vi/v6vKJvDcgpw/maxresdefault.jpg",
@@ -21,6 +23,7 @@ export const lives = [
   },
   {
     type: "special",
+    cat: "legacy-stream",
     ep: '1',
     name: "กู๊สดั๊ก x FNT PNATTSU PANDADHADA P3TTO KANAPUT MAFAIWAN DRAFTMON",
     thumb: "https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/04e0ff55f3cd4007af5f_moldyy_tin_83358479842_5651449840/thumb/custom-c98b0f9e-c109-4d32-bcc4-8aa87a3a5241-640x360.jpeg",
@@ -32,6 +35,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '1',
+    cat: "narzeky",
     name: "NARZEKY #1 — 💀 ตำนานครูนุ่น",
     thumb: "/abisu.jpg",
     links: {
@@ -42,6 +46,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '2',
+    cat: "narzeky",
     name: "NARZEKY #2 — 🎩 ลงอบีสไปหาแม่",
     thumb: "/abisu.jpg",
     links: {
@@ -52,6 +57,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '3',
+    cat: "narzeky",
     name: "NARZEKY #3 — 🤣 ปภาวิชญ์ ขบขัน เฮฮา",
     thumb: "/abisu.jpg",
     links: {
@@ -62,7 +68,8 @@ export const lives = [
   {
     type: "narzeky",
     ep: '4',
-    name: "NARZEKY #4 — 💀 ลุงแดง",
+    cat: "narzeky",
+    name: "NARZEKY #4 — 💀 กระโหลก",
     thumb: "/nanachi.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1805742610",
@@ -72,6 +79,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '5',
+    cat: "narzeky",
     name: "NARZEKY #5 — 🤡 นมปั่น",
     thumb: "/marulk.png",
     links: {
@@ -82,6 +90,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '6',
+    cat: "narzeky",
     name: "NARZEKY #6 — 🍆💦",
     thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-05.jpg",
     links: {
@@ -92,6 +101,7 @@ export const lives = [
   {
     type: "just-tin",
     ep: '1',
+    cat: "just-tin",
     name: "JUST TIN #1 — 😂 หิวโหยกันเถอะ",
     thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-02.jpg",
     links: {
@@ -102,6 +112,7 @@ export const lives = [
   {
     type: "narzeky",
     ep: '7',
+    cat: "narzeky",
     name: "NARZEKY #7 — 🧽 ครูนุ่นกินฟองน้ำ",
     thumb: "https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2020/05/Made-In-Abyss-07.jpg",
     links: {
@@ -112,8 +123,9 @@ export const lives = [
   {
     type: "narzeky",
     ep: '8',
+    cat: "narzeky",
     name: "NARZEKY #8 — 🍜 มาม่าดิบ",
-    thumb: "/7A584DB2-3653-4918-B84A-8F0CB91475D9.webp",
+    thumb: "/smirk.webp",
     links: {
       twitch: "https://www.twitch.tv/videos/1813774292",
       youtube: "https://youtu.be/bLkm2esGFzo",
@@ -122,8 +134,9 @@ export const lives = [
   {
     type: "narzeky",
     ep: '9',
+    cat: "narzeky",
     name: "NARZEKY #9 — 👻 ナナチエクスプレス",
-    thumb: "/8AD47992-3E14-458D-8829-B74C050F1004.webp",
+    thumb: "/hug.webp",
     links: {
       twitch: "https://www.twitch.tv/videos/1813783218",
       youtube: "https://youtu.be/Nd2GnoZgMek",

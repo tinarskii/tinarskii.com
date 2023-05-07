@@ -7,7 +7,7 @@ const slug = route.params.slug
 const type = slug[0];
 const lep = slug[1];
 
-const ep = lives.find((live) => live.type === type && live.ep === lep)
+const ep = lives.find((live) => live.type.replace(/'/, "") === type && live.ep === lep)
 if (!ep) {
   navigateTo("/", { replace: true });
 }
@@ -31,13 +31,19 @@ useHead({
     },
     {
       property: "og:image",
-      content: `http://tinarskii.com${epThumb}`,
-      name: "image",
+      content: `https://tinarskii.com${epThumb}`,
     },
     {
-      property: "og:image:secure_url",
-      content: `https://tinarskii.com${epThumb}`,
-      name: "image",
+      property: "og:image:width",
+      content: "1280",
+    },
+    {
+      property: "og:image:height",
+      content: "720",
+    },
+    {
+      property: "og:image:type",
+      content: `image/${epThumb.split(".").pop()}`,
     },
     { property: "og:site_name", content: "Website of TINARZEKY" },
     { property: "og:url", content: "https://tinarskii.com" },
@@ -68,7 +74,8 @@ useHead({
       {{ name }}
     </h2>
   </div>
-  <img :src="epThumb" width="600" height="400" class="rounded-lg shadow-lg">
+  <iframe :src="`https://player.twitch.tv/?video=${ep.links.twitch.split('/videos/')[1]}&parent=tinarskii.com`" frameborder="0" allowfullscreen="true" scrolling="no" height="400" width="600" class="md:rounded-lg md:shadow-lg md:block hidden"></iframe>
+  <img :src="epThumb" width="600" height="400" class="rounded-lg shadow-lg block md:hidden">
   <div class="flex flex-col gap-4 lg:w-[600px] w-full items-center justify-center">
     <button
       class="rounded-xl px-8 py-4 text-white bg-violet-600 text-2xl w-full"
