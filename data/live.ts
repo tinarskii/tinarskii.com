@@ -109,4 +109,24 @@ export const lives = [
       youtube: "https://youtu.be/YUIIsLw2HCM",
     }
   },  
+  {
+    type: "narzeky",
+    ep: '8',
+    name: "NARZEKY #8 — 🍜 มาม่าดิบ",
+    thumb: "/7A584DB2-3653-4918-B84A-8F0CB91475D9.webp",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1813774292",
+      youtube: "https://youtu.be/bLkm2esGFzo",
+    }
+  },  
+  {
+    type: "narzeky",
+    ep: '8',
+    name: "NARZEKY #9 — 👻 ナナチエクスプレス",
+    thumb: "/8AD47992-3E14-458D-8829-B74C050F1004.webp",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1813783218",
+      youtube: "https://youtu.be/Nd2GnoZgMek",
+    }
+  },  
 ]
