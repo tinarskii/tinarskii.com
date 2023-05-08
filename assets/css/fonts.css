@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
 /* <editor-fold desc="Taviraj font"> */
 @font-face {
   font-family: "Taviraj";
@@ -100,3 +102,7 @@
       format("truetype");
 }
 /* </editor-fold> */
+
+.font-germania {
+    font-family: "Germania One", cursive;
+}

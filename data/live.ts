@@ -37,7 +37,7 @@ export const lives = [
     ep: '1',
     cat: "narzeky",
     name: "NARZEKY #1 — 💀 ตำนานครูนุ่น",
-    thumb: "/abisu.jpg",
+    thumb: "/thumbnails/abisu.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1801717465",
       youtube: "https://youtu.be/K1ZIHNUXsUc",
@@ -48,7 +48,7 @@ export const lives = [
     ep: '2',
     cat: "narzeky",
     name: "NARZEKY #2 — 🎩 ลงอบีสไปหาแม่",
-    thumb: "/abisu.jpg",
+    thumb: "/thumbnails/abisu.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1802223855",
       youtube: "https://youtu.be/GTM5bW6e4OY",
@@ -59,7 +59,7 @@ export const lives = [
     ep: '3',
     cat: "narzeky",
     name: "NARZEKY #3 — 🤣 ปภาวิชญ์ ขบขัน เฮฮา",
-    thumb: "/abisu.jpg",
+    thumb: "/thumbnails/abisu.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1803927584",
       youtube: "https://youtu.be/UgNF8j1dIdI",
@@ -70,7 +70,7 @@ export const lives = [
     ep: '4',
     cat: "narzeky",
     name: "NARZEKY #4 — 💀 กระโหลก",
-    thumb: "/nanachi.jpg",
+    thumb: "/thumbnails/nanachi.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1805742610",
       youtube: "https://youtu.be/Wmtp6QOtOk0",
@@ -81,7 +81,7 @@ export const lives = [
     ep: '5',
     cat: "narzeky",
     name: "NARZEKY #5 — 🤡 นมปั่น",
-    thumb: "/marulk.png",
+    thumb: "/thumbnails/marulk.png",
     links: {
       twitch: "https://www.twitch.tv/videos/1808458360",
       youtube: "https://youtu.be/eQOGjfys8Q8",
@@ -125,7 +125,7 @@ export const lives = [
     ep: '8',
     cat: "narzeky",
     name: "NARZEKY #8 — 🍜 มาม่าดิบ",
-    thumb: "/smirk.webp",
+    thumb: "/thumbnails/smirk.webp",
     links: {
       twitch: "https://www.twitch.tv/videos/1813774292",
       youtube: "https://youtu.be/bLkm2esGFzo",
@@ -136,7 +136,7 @@ export const lives = [
     ep: '9',
     cat: "narzeky",
     name: "NARZEKY #9 — 👻 ナナチエクスプレス",
-    thumb: "/hug.webp",
+    thumb: "/thumbnails/hug.webp",
     links: {
       twitch: "https://www.twitch.tv/videos/1813783218",
       youtube: "https://youtu.be/Nd2GnoZgMek",

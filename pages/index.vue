@@ -5,7 +5,7 @@ import * as data from "~/data/data.ts";
 <template>
   <div class="flex flex-col gap-12">
     <!-- Big image -->
-    <div class="flex w-full cursor-pointer flex-row">
+    <div class="flex w-full h-[50vh] cursor-pointer flex-row">
       <img
         src="/new.jpg"
         alt="Tin at National Science Museum"

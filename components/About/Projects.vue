@@ -8,7 +8,7 @@
         v-for="project in data.projects"
         class="rounded-xl bg-white/10 bg-center bg-no-repeat">
         <div
-          class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6 text-center"
+          class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6 text-white text-center"
         >
           <p class="text-xl">
             <b>{{ project.name }}</b> by {{ project.from }}

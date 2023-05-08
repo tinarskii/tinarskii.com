@@ -12,7 +12,7 @@ module.exports = {
     extend: {},
   },
   daisyui: {
-    themes: ["halloween"],
+    themes: ["winter"],
   },
   plugins: [require("daisyui")],
 };

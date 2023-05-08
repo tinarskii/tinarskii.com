@@ -16,23 +16,54 @@ const links = [
 </script>
 
 <template>
-  <div class="flex w-full flex-row gap-2 rounded-lg bg-gray-400/25 p-2">
-    <button
-      v-for="link in links"
-      :class="$route.path === link.path ? 'nav-btn--active' : 'nav-btn'"
-      @click="navigateTo(link.path)"
-    >
-      {{ link.name }}
-    </button>
+  <div class="navbar bg-blue-100/50 p-4 rounded-lg shadow-lg border-b-4 border-primary">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#047aff"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white border-2 border-primary shadow-lg rounded-lg w-52 gap-2">
+            <button
+              v-for="link in links"
+              class="btn btn-primary btn-outline border-none"
+              @click="navigateTo(link.path)"
+            >
+              {{ link.name }}
+            </button>
+        </ul>
+      </div>
+    </div>
+    <div class="md:navbar-center">
+      <img
+        src="/wordmark-coloured.svg"
+        alt="Tinarskii's Logo"
+        @click="navigateTo('/')"
+        class="w-[300px] cursor-pointer"
+      />
+    </div>
+    <div class="md:navbar-end md:flex hidden">
+      <div class="flex flex-row items-center gap-4">
+        <NuxtLink
+          to="https://creatorsgarten.org/ring"
+          title="Creatorsgarten Ring"
+          class="max-w-[32px]"
+        >
+          <img
+            src="/icons/ring-thin.svg"
+            alt="Creatorsgarten Ring"
+          />
+        </NuxtLink>
+        <NuxtLink
+          to="https://webring.wonderful.software#tinarskii.com"
+          title="วงแหวนเว็บ"
+          class="max-w-[32px]"
+        >
+          <img
+            src="/icons/webring.svg"
+            alt="Webring.in.th Ring"
+          />
+        </NuxtLink>
+      </div>
+    </div>
   </div>
 </template>
-
-<style scoped>
-.nav-btn {
-  @apply h-full w-full rounded-lg bg-black/40 p-3 text-lg duration-200 hover:bg-black/60;
-}
-
-.nav-btn--active {
-  @apply h-full w-full rounded-lg bg-black/75 p-3 text-lg;
-}
-</style>

@@ -66,7 +66,6 @@ if (
 <template>
   <div class="page-layouts">
     <LazyNuxtLoadingIndicator color="#f28c18" class="p-1" />
-    <LazyTopBar />
     <LazyNavBar />
     <slot />
     <LazyFooter />

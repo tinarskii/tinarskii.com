@@ -13,19 +13,19 @@ const allCategory = [...new Set(lives.map((live) => live.cat))];
       v-for="(cat, idx) in allCategory"
       :key="cat"
     >
-      <h1 class="md:text-6xl text-4xl font-bold italic font-serif md:text-left text-center col-span-2" :id="cat.replace(/'/, '')">
+      <h1 class="text-4xl font-bold md:text-left text-center col-span-2 font-germania" :id="cat.replace(/'/, '')">
         <a :href="'#' + cat.replace(/'/, '')">{{ cat.replace(/-/g, " ").toUpperCase() }}</a>
       </h1>
 
-      <div class="grid md:grid-cols-3 grid-cols-1 gap-2">
+      <div class="grid md:grid-cols-3 grid-cols-1 gap-2 text-white">
         <div
           v-for="live in lives.filter((l) => l.cat === cat)"
           :key="live.name"
-          @click="navigateTo(`/live/${live.type.replace(/'/, '')}/${live.ep}`)"
+          @click="navigateTo(`/lives/${live.type.replace(/'/, '')}/${live.ep}`)"
           class="w-full relative box-content flex flex-none cursor-pointer snap-start"
         >
           <div
-            class="relative flex h-96 w-full w-full flex-col gap-0 rounded-xl bg-black/40 bg-origin-border bg-blend-multiply"
+            class="relative flex h-96 w-full w-full flex-col gap-0 rounded-xl bg-black/25 bg-origin-border bg-blend-multiply"
             :style="{
                   backgroundImage: `url(${live.thumb})`,
                   backgroundSize: 'cover',
@@ -44,7 +44,7 @@ const allCategory = [...new Set(lives.map((live) => live.cat))];
                 <h1
                   class="article-title text-center text-xl"
                 >
-                  {{ live.name.split("—")[1] }}
+                  {{ live.name.split("—")[1] ?? live.name }}
                 </h1>
               </div>
               <div

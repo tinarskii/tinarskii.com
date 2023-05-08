@@ -23,7 +23,7 @@ const { data } = await useAsyncData(
       >
         <!-- Title & Subtitles -->
         <div
-          class="flex h-full w-full flex-col items-center justify-center gap-12 rounded-xl bg-black/75 px-12 duration-200 hover:bg-black/50 lg:px-24"
+          class="flex h-full w-full flex-col items-center justify-center gap-12 rounded-xl bg-black/75 px-12 duration-200 hover:bg-black/50 lg:px-24 text-white"
         >
           <h1 class="title">{{ data.title }}</h1>
           <h2 class="subtitle">{{ data.description }}</h2>
@@ -35,10 +35,10 @@ const { data } = await useAsyncData(
         <!-- Article Metadata -->
         <div class="flex w-full flex-col gap-4 w-full">
           <!-- Author -->
-          <div class="flex flex-col items-center justify-center gap-4">
-            <h1 class="text-center text-4xl">Author</h1>
+          <div class="flex flex-col md:items-start items-center gap-4">
+            <h1 class="text-4xl">Article by</h1>
             <div
-              class="flex flex-col items-center justify-center gap-4 rounded-lg border border-neutral-content/20 bg-neutral-content/10 p-2 transition-all duration-200 hover:-translate-y-1 hover:bg-blue-200/20 hover:shadow-xl"
+              class="flex flex-col cursor-pointer items-center justify-center gap-4 rounded-lg border border-neutral-content/25 bg-neutral-content/25 p-2 transition-all duration-200 hover:-translate-y-1 hover:bg-blue-200/20 hover:shadow-xl"
               @click="navigateTo(`/articles/author/${data.author_id}`)"
             >
               <div class="flex flex-col items-center justify-center gap-2">

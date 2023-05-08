@@ -28,7 +28,7 @@ const articles = await queryContent("/articles")
         <div
           v-for="item in articles"
           @click="navigateTo(item._path)"
-          class="item relative box-content flex h-full flex-none cursor-pointer snap-start"
+          class="item relative box-content flex h-full flex-none cursor-pointer snap-start text-white"
         >
           <div
             class="relative flex h-96 w-full w-full flex-col gap-0 rounded-xl bg-black/40 bg-origin-border bg-blend-multiply"
@@ -43,7 +43,7 @@ const articles = await queryContent("/articles")
             >
               <div class="flex flex-col items-center justify-center gap-12">
                 <h1
-                  class="article-title text-center text-xl font-bold lg:text-2xl"
+                  class="article-title text-center text-xl font-bold"
                 >
                   {{ item.title }}
                 </h1>
