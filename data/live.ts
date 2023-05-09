@@ -142,4 +142,15 @@ export const lives = [
       youtube: "https://youtu.be/Nd2GnoZgMek",
     }
   },  
+  {
+    type: "narzeky",
+    ep: '10',
+    cat: "narzeky",
+    name: "NARZEKY #10 — 😭 レグエクスプレス",
+    thumb: "/lmao.png",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1815354682",
+      youtube: "https://youtu.be/QU5ocO2A08s",
+    }
+  },  
 ]
