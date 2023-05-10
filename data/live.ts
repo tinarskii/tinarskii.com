@@ -153,4 +153,15 @@ export const lives = [
       youtube: "https://youtu.be/QU5ocO2A08s",
     }
   },  
+  {
+    type: "narzeky",
+    ep: '11',
+    cat: "narzeky",
+    name: "NARZEKY #11 — 😘 リコエクスプレス",
+    thumb: "/thumbnails/Riko_and_Compass.png",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1816180503",
+      youtube: "https://youtu.be/e9KHEXg9E2Y",
+    }
+  },  
 ]
