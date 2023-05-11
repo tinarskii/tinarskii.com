@@ -99,10 +99,10 @@ export const lives = [
     }
   },  
   {
-    type: "just-tin",
+    type: "minarzeky",
     ep: '1',
-    cat: "just-tin",
-    name: "JUST TIN #1 — 😂 หิวโหยกันเถอะ",
+    cat: "minarzeky",
+    name: "MiNARZEKY #1 — 😂 หิวโหยกันเถอะ",
     thumb: "/ambush.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713404",
