@@ -164,4 +164,15 @@ export const lives = [
       youtube: "https://youtu.be/e9KHEXg9E2Y",
     }
   },  
+  {
+    type: "narzeky",
+    ep: '12',
+    cat: "narzeky",
+    name: "NARZEKY #12 — 😍 ファプタエクスプレス",
+    thumb: "/thumbnails/when.png",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1817804029",
+      youtube: "https://youtu.be/9T7MMRMdxQU",
+    }
+  },  
 ]
