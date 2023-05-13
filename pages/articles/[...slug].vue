@@ -23,7 +23,7 @@ const { data } = await useAsyncData(
       >
         <!-- Title & Subtitles -->
         <div
-          class="flex h-full w-full flex-col items-center justify-center gap-12 rounded-xl bg-black/75 px-12 duration-200 hover:bg-black/50 lg:px-24 text-white"
+          class="flex h-full w-full flex-col items-center justify-center gap-12 rounded-xl bg-black/75 px-12 duration-200 hover:bg-black/50 lg:px-24"
         >
           <h1 class="title">{{ data.title }}</h1>
           <h2 class="subtitle">{{ data.description }}</h2>

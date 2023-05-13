@@ -12,7 +12,7 @@
         :style="{ backgroundImage: `url('${evt.img}')` }"
       >
         <div
-          class="flex h-full w-full flex-col justify-center gap-4 rounded-lg bg-black/75 p-6 text-white"
+          class="flex h-full w-full flex-col justify-center gap-4 rounded-lg bg-black/75 p-6"
         >
           <div class="flex flex-col items-center justify-center">
             <p class="text-xl">

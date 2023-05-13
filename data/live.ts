@@ -92,7 +92,7 @@ export const lives = [
     ep: '6',
     cat: "narzeky",
     name: "NARZEKY #6 — 🍆💦",
-    thumb: "/aw.jpg",
+    thumb: "/thumbnails/aw.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1811027708",
       youtube: "https://youtu.be/INyRTJC_kH0",
@@ -103,7 +103,7 @@ export const lives = [
     ep: '1',
     cat: "minarzeky",
     name: "MiNARZEKY #1 — 😂 หิวโหยกันเถอะ",
-    thumb: "/ambush.jpg",
+    thumb: "/thumbnails/ambush.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713404",
       youtube: "https://youtu.be/dnRUHE0URro",
@@ -114,7 +114,7 @@ export const lives = [
     ep: '7',
     cat: "narzeky",
     name: "NARZEKY #7 — 🧽 ครูนุ่นกินฟองน้ำ",
-    thumb: "/prushka.jpg",
+    thumb: "/thumbnails/prushka.jpg",
     links: {
       twitch: "https://www.twitch.tv/videos/1812713820",
       youtube: "https://youtu.be/YUIIsLw2HCM",
@@ -147,7 +147,7 @@ export const lives = [
     ep: '10',
     cat: "narzeky",
     name: "NARZEKY #10 — 😭 レグエクスプレス",
-    thumb: "/lmao.png",
+    thumb: "/thumbnails/lmao.png",
     links: {
       twitch: "https://www.twitch.tv/videos/1815354682",
       youtube: "https://youtu.be/QU5ocO2A08s",
