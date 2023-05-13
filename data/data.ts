@@ -18,7 +18,7 @@ export const contact = [
   "Twitter",
   "twitter.com/tinarskii",
   "Twitch",
-  "twitch.tv/M_oldy",
+  "twitch.tv/tinarskii",
   "Youtube",
   "youtube.com/tinetc.",
   "Steam",
