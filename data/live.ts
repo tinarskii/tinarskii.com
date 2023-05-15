@@ -175,4 +175,15 @@ export const lives = [
       youtube: "https://youtu.be/9T7MMRMdxQU",
     }
   },  
+  {
+    type: "narzeky",
+    ep: '13',
+    cat: "narzeky",
+    name: "NARZEKY #13 — 🎈 มากับพวกเราสิ (จบ)",
+    thumb: "/thumbnails/end.png",
+    links: {
+      twitch: "https://www.twitch.tv/videos/1820399273",
+      youtube: "https://youtu.be/qUgH2c6bJJ4",
+    }
+  },  
 ]
