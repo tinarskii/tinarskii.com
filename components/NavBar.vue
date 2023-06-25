@@ -13,10 +13,11 @@ const links = [
     path: "/lives",
   },
 ];
+const currentPath = useRoute().path;
 </script>
 
 <template>
-  <div class="navbar p-4">
+  <div class="navbar p-4" v-show="!currentPath.startsWith('/demo')">
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost btn-circle">

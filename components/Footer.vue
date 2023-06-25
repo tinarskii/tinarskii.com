@@ -1,6 +1,10 @@
+<script setup>
+const currentPath = useRoute().path;
+</script>
+
 <template>
   <!-- Footer -->
-  <div class="flex w-full items-center justify-center">
+  <div class="flex w-full items-center justify-center" v-show="!currentPath.startsWith('/demo')">
     <p class="text-center text-gray-400">
       Copyright © 2023 Tinnaphat Somsang <br />
       All rights reserved.
