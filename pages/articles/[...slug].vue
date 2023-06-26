@@ -120,7 +120,7 @@ const { data } = await useAsyncData(
   @apply border-l-4 border-white/20 bg-white/10 p-4 text-lg lg:text-xl;
 }
 
-.content img {
+.content img, video {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
