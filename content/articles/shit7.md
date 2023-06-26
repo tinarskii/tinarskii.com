@@ -1,5 +1,5 @@
 ---
-id: 7
+id: 6
 title: "ยังคงโง่และบัดซบ กับงาน Stupid Hackathon in Thailand 7"
 description: "มาแชร์ประสบการณ์กันดีกว่าว่า Stupid Hackathon in Thailand ครั้งที่ 7 จะบัดซบแค่ไหน!?"
 img: "/articles/shit7/cover.png"
