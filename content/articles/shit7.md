@@ -47,7 +47,7 @@ Tech Stack เป็น [Svelte](https://svelte.dev) ทำโดยพี่ก
 
 ## ไปซน เอ้ย รู้จักใครมาอีก
 
-นอกจากพี่ทั้ง 3 คนแล้ว ก็ยังได้เจอกับพี่ ๆ ที่เคยเจอในงานก่อน ๆ เช่น[พี่คนนี้แหละ ไม่แน่ใจว่าชื่ออะไร](https://github.com/annibuliful/)) ที่ช่วยไป Contribute
+นอกจากพี่ทั้ง 3 คนแล้ว ก็ยังได้เจอกับพี่ ๆ ที่เคยเจอในงานก่อน ๆ เช่น[พี่คนนี้แหละ ไม่แน่ใจว่าชื่ออะไร](https://github.com/annibuliful/) ที่ช่วยไป Contribute
 Project [มุกแป๊กแป๊ก](https://mukpakpak.vercel.app/) แล้วก็ที่งาน [Hacktoberfest 2022](https://tinarskii.com/htbf2022/) ด้วย นอกจากนั้น
 ก็ [พี่พู](https://github.com/pumipatw) พี่ที่ทำ[บัญชีหนังหมา](https://github.com/karma-soulbound/)กับผมเมื่อปีที่แล้ว (ปีนี้พี่เขาหนีไปนับเฟรนช์ฟรายส์ซะละ) [พี่บอส](https://github.com/0xNithi) ก็เหมือนจะมาด้วย แต่ผมไม่เห็นนะ
 แล้วก็คนที่คงเจอเป็นประจำอยู่แล้ว ขอแปะลิงก์ให้ละกัน [aomkirby12](https://github.com/SaltyAom/) [GusB3ll](https://github.com/gusb3ll/) [dtinth](https://github.com/dtinth/) [Chayapatr](https://github.com/chayapatr/) [Jabont](https://github.com/jabont/) 
