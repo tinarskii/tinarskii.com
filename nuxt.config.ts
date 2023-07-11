@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     "@/assets/css/tailwind.css",
     "@/assets/css/global.css",
   ],
-  modules: ["@nuxt/image-edge", "@nuxt/content", "@nuxtjs/algolia"],
+  modules: ["@nuxt/image", "@nuxt/content", "@nuxtjs/algolia"],
   plugins: [],
   router: {
     options: {

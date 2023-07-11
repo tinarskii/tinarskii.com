@@ -52,29 +52,11 @@ const indexName = "new-index-1671618013";
                     </p>
                   </div>
                   <div
-                    class="absolute bottom-0 right-0 flex w-full flex-col gap-2"
+                    class="absolute bottom-2 right-0 flex w-full flex-col gap-2"
                   >
                     <!-- Date written -->
                     <div class="text-center">
                       <p class="article-title">⏰ {{ item.date }}</p>
-                    </div>
-                    <!-- User card -->
-                    <div class="rounded-b-xl bg-black/75 p-4">
-                      <div class="flex w-full flex-row items-center gap-4">
-                        <img
-                          :src="authors[Number(item.author_id) - 1 || 0].img"
-                          alt="User avatar"
-                          class="h-12 w-12 rounded-full"
-                        />
-                        <div class="flex flex-col gap-2">
-                          <span class="text-sm font-bold">{{
-                            authors[Number(item.author_id) - 1 || 0].name
-                          }}</span>
-                          <span class="text-xs">{{
-                            authors[Number(item.author_id) - 1 || 0].bio
-                          }}</span>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

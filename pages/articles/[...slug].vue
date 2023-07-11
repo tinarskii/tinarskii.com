@@ -33,38 +33,14 @@ const { data } = await useAsyncData(
       <!-- Article Container -->
       <div class="grid grid-cols-1 md:gap-6 lg:grid-cols-4 ">
         <!-- Article Metadata -->
-        <div class="flex w-full flex-col gap-4 w-full">
-          <!-- Author -->
-          <div class="flex flex-col md:items-start items-center gap-4">
-            <h1 class="text-4xl">Article by</h1>
-            <div
-              class="flex flex-col cursor-pointer items-center justify-center gap-4 rounded-lg border border-neutral-content/25 bg-neutral-content/25 p-2 transition-all duration-200 hover:-translate-y-1 hover:bg-blue-200/20 hover:shadow-xl"
-              @click="navigateTo(`/articles/author/${data.author_id}`)"
-            >
-              <div class="flex flex-col items-center justify-center gap-2">
-                <img
-                  :src="authors[data.author_id - 1].img"
-                  alt="Avatar"
-                  class="h-24 w-24 rounded-full"
-                />
-                <span class="article-title text-center text-2xl font-bold">{{
-                  authors[data.author_id - 1].name
-                }}</span>
-              </div>
-              <p class="text-center text-lg">
-                {{ authors[data.author_id - 1].bio }}
-              </p>
-            </div>
-          </div>
-
-          <div class="divider hidden"></div>
+        <div class="flex w-full flex-col gap-4 items-center">
           <!-- Tags -->
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 items-center">
             <h1 class="text-4xl">Tags</h1>
-            <div class="flex flex-row flex-wrap gap-2">
+            <div class="flex flex-row flex-wrap gap-2 items-center justify-center">
               <div
                 v-for="tag in data?.tags"
-                class="flex flex-row items-center justify-center gap-2 rounded-xl bg-white/10 p-2"
+                class="flex flex-row  gap-2 bg-white/10 p-2"
               >
                 <NuxtLink
                   :to="`/articles/tags/${tag}`"
@@ -76,11 +52,11 @@ const { data } = await useAsyncData(
           </div>
 
           <!-- RSS -->
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 items-center">
             <h1 class="text-4xl">RSS</h1>
             <div class="flex flex-row flex-wrap gap-2">
               <div
-                class="flex flex-row items-center justify-center gap-2 rounded-xl bg-orange-500/10 p-2"
+                class="flex flex-row items-center justify-center gap-2 bg-orange-500/10 p-2"
               >
                 <a href="/rss.xml" class="text-lg font-bold text-orange-400">
                   Subscribe
@@ -100,13 +76,13 @@ const { data } = await useAsyncData(
 <style>
 .content h1 {
   font-size: unset;
-  font-family: "Taviraj", "Sarabun", sans-serif;
+  font-family: "Urbanist", "IBM Plex Sans Thai Looped", sans-serif;
   @apply text-3xl font-bold lg:text-4xl;
 }
 
 .content h2 {
   font-size: unset;
-  font-family: "Taviraj", "Sarabun", sans-serif;
+  font-family: "Urbanist", "IBM Plex Sans Thai Looped", sans-serif;
   @apply text-2xl font-bold lg:text-3xl;
 }
 
@@ -154,13 +130,13 @@ const { data } = await useAsyncData(
 
 .title {
   font-size: unset;
-  font-family: "Taviraj", Tahoma, sans-serif;
-  @apply text-4xl font-bold lg:text-6xl;
+  font-family: "Urbanist", "IBM Plex Sans Thai Looped", sans-serif;
+  @apply text-4xl font-bold lg:text-5xl;
 }
 
 .subtitle {
   font-size: unset;
-  font-family: "Taviraj", Tahoma, sans-serif;
+  font-family: "Urbanist", "Noto Serif Thai", sans-serif;
   @apply text-lg lg:text-xl;
 }
 </style>

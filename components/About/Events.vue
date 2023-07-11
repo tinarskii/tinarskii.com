@@ -5,11 +5,10 @@
     >
       ✨Events
     </header>
-    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+    <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
       <section
         v-for="evt in data.events"
         class="hoverable rounded-lg bg-white/10 bg-center"
-        :style="{ backgroundImage: `url('${evt.img}')` }"
       >
         <div
           class="flex h-full w-full flex-col justify-center gap-4 rounded-lg bg-black/75 p-6"

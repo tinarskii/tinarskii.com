@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 header {
-  font-family: "Merriweather", "Sarabun", sans-serif;
+  font-family: "Urbanist", "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 700;
 }
 
@@ -19,13 +19,14 @@ button,
 input,
 article,
 section {
-  font-family: "Roboto", "Sarabun", sans-serif;
+  font-family: "Urbanist", "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .page-layouts {
-  @apply grid w-full place-items-center gap-12 px-2 py-8 md:my-8 md:px-32 md:py-0;
+  @apply grid w-full place-items-center gap-12 px-2 py-8 md:px-16 xl:my-8 xl:px-52 xl:py-0;
 }
 
 .article-title {
-  font-family: "Taviraj", "Sarabun", sans-serif;
+  font-family: "Noto Serif Thai", serif;
+  font-weight: bold;
 }
