@@ -4,7 +4,7 @@ title: "เรื่องราวอันน่าทึ่งเกี่ย
 description: "คุณเคยตั้งคำถามกับตัวเองหรือสงสัยไหมครับว่า คอมพิวเตอร์ที่เราใช้ในชีวิตประจำวันไม่ว่าจะทำงานหรือเล่นเกมเนี่ย มันมีประวัติหรือที่มาอย่างไร?"
 img: "/articles/computer/banner-com.jpg"
 author_id: 1
-tags: [history,computer,technology]
+tags: [history, computer, technology]
 date: "Jan 4, 2023"
 
 image:
@@ -17,7 +17,7 @@ head:
       content: "คุณเคยตั้งคำถามกับตัวเองหรือสงสัยไหมครับว่า คอมพิวเตอร์ที่เราใช้ในชีวิตประจำวันไม่ว่าจะทำงานหรือเล่นเกมเนี่ย มันมีประวัติหรือที่มาอย่างไร?"
 ---
 
-<center><h2 id="introduction">บทนำ</h2></center> 
+<center><h2 id="introduction">บทนำ</h2></center>
 
 ![คอมพิวเตอร์ส่วนบุคคล](/articles/computer/home-com.jpg)<figcaption>คอมพิวเตอร์ส่วนบุคคล</figcaption>
 คุณเคยตั้งคำถามกับตัวเองหรือสงสัยไหมครับว่า คอมพิวเตอร์ที่เราใช้ในชีวิตประจำวันไม่ว่าจะทำงานหรือเล่นเกมเนี่ย มันมีประวัติหรือที่มาอย่างไร? หลักการของมันจริง ๆ แล้วคืออะไร วันนี้เรามาหาคำตอบกันครับ
@@ -47,7 +47,7 @@ head:
 
 ![IBM Tube](/articles/computer/Ibm-tube.jpg)<figcaption>โมดูลหลอดจากเมนเฟรมของ IBM</figcaption>
 ยุคนี้เริ่มขึ้นในสมัยสงครามโลกครั้งที่ 2 ประเทศสหรัฐ อเมริกา
-ได้ประดิษฐ์เครื่องคอมพิวเตอร์ชื่อ ENIAC ขึ้น เพื่อใช้ประมวลผลในสงคราม  เป็นคอมพิวเตอร์ที่ใช้หลอดสุญญากาศซึ่งมีขนาดใหญ่โตมาก และมี
+ได้ประดิษฐ์เครื่องคอมพิวเตอร์ชื่อ ENIAC ขึ้น เพื่อใช้ประมวลผลในสงคราม เป็นคอมพิวเตอร์ที่ใช้หลอดสุญญากาศซึ่งมีขนาดใหญ่โตมาก และมี
 ความร้อนสูงมากในระหว่างการทำงานซึ่งทำให้เกิดชำรุดเสียหายได้ง่าย และการดูแลรักษามีค่าใช้จ่ายค่อนข้างสูง และใช้บัตรเจาะรูในการป้อนข้อมูล
 
 <div class="divider"></div>
@@ -90,7 +90,7 @@ head:
 [ดูรายการอ้างอิงข้อมูลที่นี่](https://docs.google.com/document/d/1hU0v1TTin88iB-HaLV51ZiCDxGSrhq6ouKogKGNbT4Y/view#heading=h.a87upbgpq6uy)
 
 - [City of Boston Archives](https://flickr.com/photos/48039697@N05/9519690162) [(CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/)
-- [ROC-era abacus at China National Museum of Women and Children](https://commons.wikimedia.org/wiki/File:ROC-era_abacus_at_China_National_Museum_of_Women_and_Children_(20210909140914).jpg) [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+- [ROC-era abacus at China National Museum of Women and Children](<https://commons.wikimedia.org/wiki/File:ROC-era_abacus_at_China_National_Museum_of_Women_and_Children_(20210909140914).jpg>) [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 - [Ibm-tube](https://commons.wikimedia.org/wiki/File:Ibm-tube.jpg) [(CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/)
 - [Transistors.agr](https://commons.wikimedia.org/wiki/File:Transistors.agr.jpg) [(CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/)
 - [Circuito integrado](https://commons.wikimedia.org/wiki/File:Circuito_integrado.jpg) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)

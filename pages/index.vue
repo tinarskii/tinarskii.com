@@ -4,9 +4,11 @@ import * as data from "~/data/data.ts";
 
 <template>
   <div class="flex flex-col gap-12">
-    <div class="grid grid-cols-1 bg-gradient-to-r from-orange-500 to-pink-700 rounded-2xl gap-6">
+    <div
+      class="grid grid-cols-1 gap-6 rounded-2xl bg-gradient-to-r from-orange-500 to-pink-700"
+    >
       <div class="flex flex-col">
-        <nuxt-img src="/nobg.png" class="place-self-center" alt="tin" />
+        <img src="/nobg.png" class="place-self-center" alt="tin" />
       </div>
     </div>
 
@@ -18,7 +20,6 @@ import * as data from "~/data/data.ts";
         ({{ data.about.aka }})
       </h2>
     </section>
-
 
     <!-- About -->
     <article class="text-left text-lg">

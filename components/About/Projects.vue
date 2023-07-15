@@ -6,7 +6,8 @@
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
       <section
         v-for="project in data.projects"
-        class="rounded-xl bg-white/10 bg-center bg-no-repeat">
+        class="rounded-xl bg-white/10 bg-center bg-no-repeat"
+      >
         <div
           class="flex h-full w-full flex-col items-center justify-center gap-4 rounded-lg bg-black/75 p-6"
         >

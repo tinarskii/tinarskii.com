@@ -31,16 +31,18 @@ const { data } = await useAsyncData(
       </div>
 
       <!-- Article Container -->
-      <div class="grid grid-cols-1 md:gap-6 lg:grid-cols-4 ">
+      <div class="grid grid-cols-1 md:gap-6 lg:grid-cols-4">
         <!-- Article Metadata -->
-        <div class="flex w-full flex-col gap-4 items-center">
+        <div class="flex w-full flex-col items-center gap-4">
           <!-- Tags -->
-          <div class="flex flex-col gap-4 items-center">
+          <div class="flex flex-col items-center gap-4">
             <h1 class="text-4xl">Tags</h1>
-            <div class="flex flex-row flex-wrap gap-2 items-center justify-center">
+            <div
+              class="flex flex-row flex-wrap items-center justify-center gap-2"
+            >
               <div
                 v-for="tag in data?.tags"
-                class="flex flex-row  gap-2 bg-white/10 p-2"
+                class="flex flex-row gap-2 bg-white/10 p-2"
               >
                 <NuxtLink
                   :to="`/articles/tags/${tag}`"
@@ -52,7 +54,7 @@ const { data } = await useAsyncData(
           </div>
 
           <!-- RSS -->
-          <div class="flex flex-col gap-4 items-center">
+          <div class="flex flex-col items-center gap-4">
             <h1 class="text-4xl">RSS</h1>
             <div class="flex flex-row flex-wrap gap-2">
               <div
@@ -96,7 +98,8 @@ const { data } = await useAsyncData(
   @apply border-l-4 border-white/20 bg-white/10 p-4 text-lg lg:text-xl;
 }
 
-.content img, video {
+.content img,
+video {
   @apply mx-auto my-2 max-h-[65vh] max-w-full rounded-xl object-cover;
 }
 
@@ -105,7 +108,7 @@ const { data } = await useAsyncData(
 }
 
 .content figcaption {
-  @apply text-center italic text-gray-400 pb-4;
+  @apply pb-4 text-center italic text-gray-400;
 }
 
 .content p > a {

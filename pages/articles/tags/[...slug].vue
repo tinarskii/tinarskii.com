@@ -42,9 +42,7 @@ const articles = await queryContent("/articles")
               class="flex h-full w-full flex-col items-center items-center justify-center justify-between gap-0 rounded-xl bg-black/75 p-4 duration-200 hover:bg-black/50"
             >
               <div class="flex flex-col items-center justify-center gap-12">
-                <h1
-                  class="article-title text-center text-xl font-bold"
-                >
+                <h1 class="article-title text-center text-xl font-bold">
                   {{ item.title }}
                 </h1>
                 <p class="lg:text-lg">

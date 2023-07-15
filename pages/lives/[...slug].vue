@@ -2,12 +2,14 @@
 import { lives } from "~/data/live";
 
 const route = useRoute();
-const slug = route.params.slug
+const slug = route.params.slug;
 
 const type = slug[0];
 const lep = slug[1];
 
-const ep = lives.find((live) => live.type.replace(/'/, "") === type && live.ep === lep)
+const ep = lives.find(
+  (live) => live.type.replace(/'/, "") === type && live.ep === lep
+);
 // if (!ep) {
 //   navigateTo("/", { replace: true });
 // }
@@ -61,30 +63,46 @@ useHead({
       content: epName,
     },
   ],
-
-})
+});
 </script>
 
 <template>
-  <div class="flex flex-col gap-2 ">
-    <h1 class="text-6xl text-center font-bold">
+  <div class="flex flex-col gap-2">
+    <h1 class="text-center text-6xl font-bold">
       {{ shows }}
     </h1>
-    <h2 class="text-3xl text-center">
+    <h2 class="text-center text-3xl">
       {{ name }}
     </h2>
   </div>
-  <iframe :src="`https://player.twitch.tv/?video=${ep.links.twitch.split('/videos/')[1]}&parent=tinarskii.com`" frameborder="0" allowfullscreen="true" scrolling="no" height="400" width="600" class="md:rounded-lg md:shadow-lg md:block hidden"></iframe>
-  <img :src="epThumb" width="600" height="400" class="rounded-lg shadow-lg block md:hidden">
-  <div class="flex flex-col gap-4 lg:w-[600px] w-full items-center justify-center">
+  <iframe
+    :src="`https://player.twitch.tv/?video=${
+      ep.links.twitch.split('/videos/')[1]
+    }&parent=tinarskii.com`"
+    frameborder="0"
+    allowfullscreen="true"
+    scrolling="no"
+    height="400"
+    width="600"
+    class="hidden md:block md:rounded-lg md:shadow-lg"
+  ></iframe>
+  <img
+    :src="epThumb"
+    width="600"
+    height="400"
+    class="block rounded-lg shadow-lg md:hidden"
+  />
+  <div
+    class="flex w-full flex-col items-center justify-center gap-4 lg:w-[600px]"
+  >
     <button
-      class="rounded-xl px-8 py-4 text-white bg-violet-600 text-2xl w-full"
+      class="w-full rounded-xl bg-violet-600 px-8 py-4 text-2xl text-white"
       v-on:click="navigateTo(epLinks.twitch, { external: true })"
     >
       Watch on twitch
     </button>
     <button
-      class="rounded-xl px-8 py-4 text-white bg-red-600 text-2xl w-full"
+      class="w-full rounded-xl bg-red-600 px-8 py-4 text-2xl text-white"
       v-on:click="navigateTo(epLinks.youtube, { external: true })"
     >
       Watch on youtube

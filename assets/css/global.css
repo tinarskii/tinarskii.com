@@ -23,7 +23,7 @@ section {
 }
 
 .page-layouts {
-  @apply grid w-full place-items-center gap-12 px-2 py-8 md:px-16 xl:my-8 xl:px-52 xl:py-0;
+  @apply m-auto grid w-full w-[96vw] place-items-center gap-12 pt-4 xl:w-[64vw];
 }
 
 .article-title {
