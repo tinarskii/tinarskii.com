@@ -8,7 +8,7 @@ import * as data from "~/data/data.ts";
       class="grid grid-cols-1 gap-6 rounded-2xl bg-gradient-to-r from-orange-500 to-pink-700"
     >
       <div class="flex flex-col">
-        <img src="/nobg.png" class="place-self-center" alt="tin" />
+        <img src="/nobg.avif" class="place-self-center" alt="tin" />
       </div>
     </div>
 
