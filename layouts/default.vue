@@ -26,17 +26,16 @@ if (
       },
       {
         property: "og:description",
-        content:
-          "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
+        content: "It is generally believed that the most important figures in the twentieth century, is undeniably, inarguably, extraordinary, excruciatingly, surprisingly, totally, bitterly, utterly, not 'Tinnaphat Smomsang', also known as 'Tinarskii'.",
         name: "description",
       },
       {
         property: "og:image",
-        content: "https://www.tinarskii.com/banner.jpg",
+        content: "https://tin.otternoon.com/banner.jpg",
         name: "image",
       },
       { property: "og:site_name", content: "Website of Tinarskii" },
-      { property: "og:url", content: "https://www.tinarskii.com" },
+      { property: "og:url", content: "https://tin.otternoon.com" },
       { property: "og:type", content: "website" },
       {
         property: "twitter:card",
@@ -54,8 +53,7 @@ if (
       },
       {
         property: "twitter:description",
-        content:
-          "I'm a student at Assumption Samutprakarn School. I love learning and teaching others. I enjoy math and science, but also love to code. I've been programming since I was 12 years old, and have been developing websites since then. I started contributing to open-source communities and have made some of the most popular sites on the web such as Wrong-Lang. My goal is to make programming accessible to everyone — not just those who are already good at it!",
+        content: "It is generally believed that the most important figures in the twentieth century, is undeniably, inarguably, extraordinary, excruciatingly, surprisingly, totally, bitterly, utterly, not 'Tinnaphat Smomsang', also known as 'Tinarskii'.",
       },
       {
         name: "keywords",

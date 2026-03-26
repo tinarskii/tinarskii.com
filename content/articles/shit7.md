@@ -18,7 +18,7 @@ head:
 ---
 
 แน่นอนว่าเมื่อวานนี้ได้ไปเข้าร่วมงาน แหกกระท้อน ที่มีคุณภาพ (กาว) ดีที่สุดในประเทศไทย (อีกแล้ว) ก็คืองาน **Stupid Hackathon in Thailand** (หรือ **SHiT**) นั่นเองง
-เป็นงานที่จัดมาเจ็ดปีแล้ว ส่วนผมก็ได้เข้าตั้งแต่ปีที่แล้วจนมาถึงปีนี้ด้วย ซึ่งใครที่ยังไม่ได้อ่าน [ไปอ่านได้ที่นี่นะ](https://tinarskii.com/articles/shit6) ซึ่งในปีนี้เนี่ยเราได้จัดขึ้นที่
+เป็นงานที่จัดมาเจ็ดปีแล้ว ส่วนผมก็ได้เข้าตั้งแต่ปีที่แล้วจนมาถึงปีนี้ด้วย ซึ่งใครที่ยังไม่ได้อ่าน [ไปอ่านได้ที่นี่นะ](https://tin.otternoon.com/articles/shit6) ซึ่งในปีนี้เนี่ยเราได้จัดขึ้นที่
 **The Knowledge Exchange: KX ชั้น 7 Auditorium** ใหญ่มากกกกก และหนาวมาก หนาวฉิบหาย🥶 (ไม่มี ส ม า ชิ ก ท่านใหนปรับหรอกครับ แต่ไม่รู้ว่าปรับยังไง)
 ซึ่งต่างกับปีที่แล้ว (แต่ผมชอบของปีที่แล้วมากกว่านะ บรรยากาศเหมือนครอบครัวดี 🥰) แล้วจะรออะไร มาเข้าเรื่องกันเถอะ
 
@@ -29,7 +29,7 @@ head:
 ปีที่เรานัดกันมาก่อนอยู่แล้ว (ไม่เบี้ยวแล้วบิดเหมือน[พี่เรย์](https://github.com/sleepntsheep/)ที่หนีไปทำบ้านสีเหลืองกับ[พี่ลีโอ](https://leomotors.me/)😒)
 ซึ่งในปีนี้เราได้ทำส่วนเสริมของ Chrome เพื่อพ่อกัน คร่าว ๆ คือเปลี่ยนทุกรูปเป็นรูปพ่อ เปลี่ยนทุกวิดีโอเป็นเอ็มวีเพลง ๆ หนึ่ง ทำให้สี Background เป็นสีเหลือง
 มีเลขไทยเลขหนึ่งตัวใหญ่ ๆ อยู่บนหน้าเว็บ และ Pop-Up รูป ๆ หนึ่งเวลาเข้าทุกเว็บไซต์ ได้รับแรงบันดาลใจมาจาก [โปรเจกต์ long-live-hm ของพี่ลีโอ](https://github.com/leomotors/long-live-hm/)  
-ตอน Hacktoberfest Thailand 2022 [ใครยังไม่ได้อ่านอีกก็เชิญทางนี้ครับ 😁](https://tinarskii.com/articles/htbf2022/) ได้ไปเห็นเขาทำพอดี เลยเสนอ
+ตอน Hacktoberfest Thailand 2022 [ใครยังไม่ได้อ่านอีกก็เชิญทางนี้ครับ 😁](https://tin.otternoon.com/articles/htbf2022/) ได้ไปเห็นเขาทำพอดี เลยเสนอ
 ไอเดียมา (แต่ตอนนั้นขี้เกียจทำ) ครึ่งปีผ่านมาก็ตอนนี้ได้ทำละ
 
 โดยมี[พี่ฟอร์ส](https://github.com/buyyakhoo/) [พี่กันต์](https://github.com/rufflogix/) และ[พี่คะนิ้ง](https://www.instagram.com/kng._01k/) มาช่วยกันทำ ซึ่งเราได้ทำเป็นสองส่วน คือส่วนของเว็บไซต์ และส่วนของ Chrome Extension ซึ่งส่วนของเว็บไซต์เราได้ใช้
@@ -45,7 +45,7 @@ Tech Stack เป็น [Svelte](https://svelte.dev/) ทำโดยพี่�
 ## ไปซน เอ้ย รู้จักใครมาอีก
 
 นอกจากพี่ทั้ง 3 คนแล้ว ก็ยังได้เจอกับพี่ ๆ ที่เคยเจอในงานก่อน ๆ เช่น[พี่คนนี้แหละ ไม่แน่ใจว่าชื่ออะไร](https://github.com/annibuliful/) ที่ช่วยไป Contribute
-Project [มุกแป๊กแป๊ก](https://mukpakpak.vercel.app/) แล้วก็ที่งาน [Hacktoberfest 2022](https://tinarskii.com/htbf2022/) ด้วย นอกจากนั้น
+Project [มุกแป๊กแป๊ก](https://mukpakpak.vercel.app/) แล้วก็ที่งาน [Hacktoberfest 2022](https://tin.otternoon.com/htbf2022/) ด้วย นอกจากนั้น
 ก็ [พี่พู](https://github.com/pumipatw) พี่ที่ทำ[บัญชีหนังหมา](https://github.com/karma-soulbound/)กับผมเมื่อปีที่แล้ว (ปีนี้พี่เขาหนีไปนับเฟรนช์ฟรายส์ซะละ) [พี่บอส](https://github.com/0xNithi) ก็เหมือนจะมาด้วย แต่ผมไม่เห็นนะ
 แล้วก็คนที่คงเจอเป็นประจำอยู่แล้ว ขอแปะลิงก์ให้ละกัน [aomkirby12](https://github.com/SaltyAom/) [GusB3ll](https://github.com/gusb3ll/) [dtinth](https://github.com/dtinth/) [Chayapatr](https://github.com/chayapatr/) [Jabont](https://github.com/jabont/)
 [Leomotors](https://github.com/leomotors/) [Rayriffy](https://github.com/rayriffy/) และ [narze](https://narze.live/) แล้วก็มี

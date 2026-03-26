@@ -5,12 +5,14 @@ const currentPath = useRoute().path;
 <template>
   <!-- Footer -->
   <div
-    class="flex w-full items-center justify-center"
+    class="flex w-full items-center justify-center py-4"
     v-show="!currentPath.startsWith('/demo')"
   >
     <p class="text-center text-gray-400">
-      Copyright © 2023 Tinnaphat Somsang <br />
-      All rights reserved.
+      No parts had been made with AI <br/>
+      Made with 💋 by Tinnaphat Somsang <br />
+      <br/> Inspired by Narze's <a href="https://github.com/narze/resume" class="underline">Resumette</a> <br/>
+      No Rights Reserved.
       <a
         href="https://github.com/t1narskii/nuxt-tinarskii.com"
         class="underline"

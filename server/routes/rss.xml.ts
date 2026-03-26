@@ -7,7 +7,7 @@ export default defineEventHandler(async (event) => {
     title: "Website of Tinarskii",
     description: "My website obviously, duh.",
     site_url: "https://tinarskii.com",
-    feed_url: "https://tinarskii.com/rss.xml",
+    feed_url: "https://tin.otternoon.com/rss.xml",
   });
   const docs = await serverQueryContent(event).find();
 

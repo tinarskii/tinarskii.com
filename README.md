@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://tinarskii.com/wordmark.svg">
+  <img src="https://tin.otternoon.com/wordmark.svg">
   <p align="center">
     Source code of tinarskii.com
   </p>
