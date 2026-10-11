@@ -6,7 +6,7 @@ export const about = {
   age: new Date(new Date().getTime() - 1226282400000).getFullYear() - 1970,
   aka: "Tinarskii",
   loc: "Samutprakarn, Thailand",
-  language: "Thai (Native), English (Fluent), Chinese (Good Morning Teacher)",
+  language: "Thai (Native), English (Better than you), Chinese (Good Morning Teacher), French (Still grinding)",
   jobs: "Student",
 };
 
